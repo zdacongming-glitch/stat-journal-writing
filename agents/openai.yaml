@@ -1,4 +1,4 @@
 interface:
   display_name: "统计学四大期刊写作"
-  short_description: "结合官方要求与经典论文，优化统计学四大期刊稿件的论证与英文叙述"
-  default_prompt: "请使用 $stat-journal-writing，按我的目标期刊修改稿件的论证结构和行文风格，保留技术含义，并说明关键修改及待核实事项。"
+  short_description: "依据经典全文与方向规范改写统计论文，核验术语，独立无损删改并统一去水印"
+  default_prompt: "请使用 $stat-journal-writing，依据目标期刊和方向的经典全文修改稿件，核验术语，独立无损删改，再调用统一去水印并核对技术含义。"

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "journal": "JASA",
+  "journal_id": "jasa",
+  "checked_at": "2026-10-19",
+  "purpose": "Recent-publication calibration, separate from the 25-paper classic core",
+  "selection_policy": "选择2021与2023正式发表的两个T&M原创研究；读取其完整公开2020年作者稿主体，以篇章逻辑及术语为校准范围。不是2020–2025逐年抽样，也没有核对出版社终稿布局。",
+  "status": {
+    "retrieved": 2,
+    "read": 2,
+    "notes": 2
+  },
+  "papers": [
+    {
+      "id": "JASA-C01",
+      "title": "A New Coefficient of Correlation",
+      "authors": [
+        "Sourav Chatterjee"
+      ],
+      "year": 2021,
+      "doi": "10.1080/01621459.2020.1758115",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "selection_reason": "近年方法/理论校准：以简单可计算的统计量、目标性质、理论及应用相连的叙述为例；不占25经典核心，不据此作test-of-time评价。",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1080/01621459.2020.1758115",
+        "https://doi.org/10.1080/01621459.2020.1758115"
+      ],
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1909.10140",
+        "version": "arXiv:1909.10140v4, 2020-04-28, 39 PDF pages; JASA print publication 2021; not publisher pagination",
+        "format": "pdf",
+        "sha256": "5b25990a06dd2fb8c115837a765f92a5a5f8a087867d68116ffd45de0538c505",
+        "pages": 39,
+        "read_scope": "已阅读作者稿PDF pp.1–21的摘要及§§1–8全部主体叙述、定理说明、图表、模拟、两个应用及proof sketch；§§9–11证明pp.21–36未逐行核验，参考文献仅定位。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA-C01.md",
+      "topics": [
+        "dependence measures",
+        "nonparametric inference"
+      ],
+      "citation_evidence": {
+        "source": "https://api.crossref.org/works/10.1080/01621459.2020.1758115",
+        "query_date": "2026-10-19",
+        "count": 336,
+        "purpose": "metadata only; recent calibration selection is not a test-of-time ranking"
+      }
+    },
+    {
+      "id": "JASA-C02",
+      "title": "Derandomizing Knockoffs",
+      "authors": [
+        "Zhimei Ren",
+        "Yuting Wei",
+        "Emmanuel Candès"
+      ],
+      "year": 2023,
+      "doi": "10.1080/01621459.2021.1962720",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "selection_reason": "近年计算推断与应用校准：聚合算法的随机性、错误标准及多阶段科学问题如何保持一致；不占25经典核心，不视为已通过长期检验的排名。",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1080/01621459.2021.1962720",
+        "https://doi.org/10.1080/01621459.2021.1962720"
+      ],
+      "full_text": {
+        "url": "https://candes.su.domains/publications/downloads/derandomizingKnockoffs.pdf",
+        "version": "Author-hosted manuscript dated 2020-12-03, 35 PDF pages; JASA print publication 2023; not publisher final layout",
+        "format": "pdf",
+        "sha256": "c6c52e7bcfbc7923cbadd3d4bfc21c83b3ef133617658fb7f16bd9a0dd95a14d",
+        "pages": 35,
+        "read_scope": "已阅读作者稿PDF pp.1–22的摘要及§§1–7全部主体叙述、算法、定理解释、模拟诊断、GWAS分析和图表说明；pp.26–35附录细节与额外模拟未作为已完整精读部分，证明未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA-C02.md",
+      "topics": [
+        "controlled variable selection",
+        "knockoff aggregation"
+      ],
+      "citation_evidence": {
+        "source": "https://api.crossref.org/works/10.1080/01621459.2021.1962720",
+        "query_date": "2026-10-19",
+        "count": 30,
+        "purpose": "metadata only; recent calibration selection is not a test-of-time ranking"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2667 @@
+{
+  "schema_version": 1,
+  "journal_id": "aos",
+  "journal": "The Annals of Statistics",
+  "checked_at": "2026-10-19",
+  "core_target": 25,
+  "selection_policy": "2000年以来正式发表的原创论文；Crossref本刊70篇高引候选发现，结合原始贡献、发表年龄、方向、作者与类型覆盖；实际获取全文并逐篇核验阅读。补充OpenAlex可见窗口年度引用，不将计数等同于领域共识排名。",
+  "papers": [
+    {
+      "id": "AOS01",
+      "title": "Greedy function approximation: A gradient boosting machine.",
+      "authors": [
+        "Jerome H. Friedman"
+      ],
+      "year": 2001,
+      "doi": "10.1214/aos/1013203451",
+      "journal": "The Annals of Statistics",
+      "volume": "29",
+      "issue": "5",
+      "pages": "1189-1232",
+      "article_type": "Original methodological research (1999 Reitz Lecture)",
+      "topics": [
+        "gradient boosting",
+        "function-space optimization",
+        "tree ensembles",
+        "partial dependence"
+      ],
+      "selection_reason": "梯度提升的函数空间构造与损失驱动算法，覆盖统计学习方法原理如何转成实现和证据。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 23627,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1678356000",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 247
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 299
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 361
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 474
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 524
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 753
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 1140
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 1734
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 2378
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 2931
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 2937
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 3233
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 3720
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 4324
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 4090
+            }
+          ],
+          "total_citations": 30224,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.cmi.ac.in/~madhavan/courses/dmml2026/literature/Friedman-Gradient-Boosting-Machine-2001.pdf",
+        "format": "pdf",
+        "sha256": "580690c56c437051209e5ac3cc74c86f121dffa084e836611809cf7fa6dc89e4",
+        "pages": 45,
+        "status": "read",
+        "version": "2001正式发表版扫描件，PDF第1页为JSTOR封面，第2–45页对应正式页1189–1232；全文叙述通过逐页英文OCR阅读并结合算法/图表标注核对",
+        "read_scope": "完整阅读正式页1189–1231的摘要、§§1–10全部主体叙述、算法解释、模拟/应用、图表及结尾；参考文献浏览。没有将OCR中受损公式当作独立数学验算依据。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS01.md"
+    },
+    {
+      "id": "AOS02",
+      "title": "The control of the false discovery rate in multiple testing under dependency",
+      "authors": [
+        "Yoav Benjamini",
+        "Daniel Yekutieli"
+      ],
+      "year": 2001,
+      "doi": "10.1214/aos/1013699998",
+      "journal": "The Annals of Statistics",
+      "volume": "29",
+      "issue": "4",
+      "pages": "1165-1188",
+      "article_type": "原创理论论文（依赖检验下FDR控制）",
+      "topics": [
+        "multiple-testing",
+        "dependent-tests"
+      ],
+      "selection_reason": "依赖检验下FDR控制的基本推广，覆盖保证、依赖条件和实际检验结构的衔接。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 8504,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1596515083",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 355
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 467
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 480
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 522
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 589
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 605
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 713
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 726
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 779
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 814
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 655
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 595
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 631
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 597
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 423
+            }
+          ],
+          "total_citations": 10450,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.math.tau.ac.il/~ybenja/MyPapers/benjamini_yekutieli_ANNSTAT2001.pdf",
+        "format": "pdf",
+        "sha256": "4bfbec2b1099968fee729852c5d6c3a8123ba6e5748e1e9583a81d5c5ebdef27",
+        "pages": 24,
+        "status": "read",
+        "version": "作者托管正式发表版",
+        "read_at": "2026-10-19",
+        "read_scope": "全部24页主体叙述、§1–5与附录证明组织，未逐行验证证明"
+      },
+      "note": "papers/AOS02.md"
+    },
+    {
+      "id": "AOS03",
+      "title": "Least angle regression",
+      "authors": [
+        "Bradley Efron",
+        "Trevor Hastie",
+        "Iain Johnstone",
+        "Robert Tibshirani"
+      ],
+      "year": 2004,
+      "doi": "10.1214/009053604000000067",
+      "journal": "The Annals of Statistics",
+      "volume": "32",
+      "issue": "2",
+      "pages": "407-499",
+      "article_type": "Original methodological and theoretical research",
+      "topics": [
+        "least angle regression",
+        "Lasso path",
+        "forward stagewise regression",
+        "degrees of freedom"
+      ],
+      "selection_reason": "LARS与正则化路径的原始方法贡献，覆盖算法几何、计算步骤和模型选择解释。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 6755,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2063978378",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 600
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 587
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 630
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 666
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 565
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 566
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 587
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 601
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 546
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 610
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 424
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 355
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 306
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 242
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 138
+            }
+          ],
+          "total_citations": 9361,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/math/0406456",
+        "format": "pdf",
+        "sha256": "2bd75fee5ac6dc9a3004b918c3bfb59452fee94ac7a0f829fbd723997ff32cff",
+        "pages": 48,
+        "status": "read",
+        "version": "arXiv math/0406456v2，2004-06-30；IMS电子重印48页，首页注明原文2004年32(2):407–451且重排页码/字体",
+        "read_scope": "完整阅读重印页1–41摘要及§§1–8全部主体叙述、图表、主要定理与正文证明的解释逻辑；附录41–47页的局部线性/正锥正则性证明未逐行验算，参考文献浏览。没有读取并计入随后讨论。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS03.md",
+      "metadata_corrections": {
+        "original_article_pages": "407–451",
+        "crossref_page_range_note": "Crossref的407–499包含随后的讨论；所读IMS重印首页明确原始论文为407–451，不把讨论计入原文或独立核心研究。"
+      }
+    },
+    {
+      "id": "AOS04",
+      "title": "Additive logistic regression: a statistical view of boosting (With discussion and a rejoinder by the authors)",
+      "authors": [
+        "Jerome Friedman",
+        "Trevor Hastie",
+        "Robert Tibshirani"
+      ],
+      "year": 2000,
+      "doi": "10.1214/aos/1016218223",
+      "journal": "The Annals of Statistics",
+      "volume": "28",
+      "issue": "2",
+      "pages": "337-407",
+      "article_type": "Original methodological research (Special Invited Paper)",
+      "topics": [
+        "boosting",
+        "additive logistic regression",
+        "LogitBoost",
+        "stagewise fitting"
+      ],
+      "selection_reason": "从加性logistic建模解释boosting，覆盖以共同统计原理统一既有算法的论证。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 5380,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2024046085",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 356
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 331
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 349
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 335
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 268
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 286
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 285
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 365
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 372
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 434
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 349
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 282
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 242
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 211
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 145
+            }
+          ],
+          "total_citations": 6887,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://web.stanford.edu/~hastie/Papers/AdditiveLogisticRegression/alr.pdf",
+        "format": "pdf",
+        "sha256": "e2ff59b11c3249fba0d47ba9f238fe7e73efa0006fc4765cd7f725a6e66be3a5",
+        "pages": 38,
+        "status": "read",
+        "version": "2000年正式发表版，作者网站提供的38页扫描PDF；逐页英文OCR，正式页337–374；末页包含讨论开头但未把讨论计入主体分析",
+        "read_scope": "完整阅读337–373页摘要、§§1–11全部主体叙述、算法推导、模拟/真实例子、图表、结论；原文参考文献浏览。374页讨论开头仅识别其边界；后续讨论和回复未获取/未计入。OCR公式未独立逐项验算。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS04.md",
+      "metadata_corrections": {
+        "original_article_pages": "337–374（主体叙述至373页；374页原文参考文献后开始Breiman讨论）",
+        "crossref_page_range_note": "题录337–407为原论文及讨论/回复合并范围；所读PDF仅38页，不能据该范围宣称阅读全部讨论。"
+      }
+    },
+    {
+      "id": "AOS05",
+      "title": "Nearly unbiased variable selection under minimax concave penalty",
+      "authors": [
+        "Cun-Hui Zhang"
+      ],
+      "year": 2010,
+      "doi": "10.1214/09-aos729",
+      "journal": "The Annals of Statistics",
+      "volume": "38",
+      "issue": "2",
+      "pages": "894-942",
+      "article_type": "Original methodological and theoretical research",
+      "topics": [
+        "minimax concave penalty",
+        "nonconvex penalization",
+        "PLUS algorithm",
+        "sparse selection"
+      ],
+      "selection_reason": "MCP和相关选择理论，覆盖非凸惩罚的偏差、计算路径和稀疏恢复。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 3080,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1965125844",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 122
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 139
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 166
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 189
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 242
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 253
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 332
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 335
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 387
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 330
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 326
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 328
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 340
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 216
+            }
+          ],
+          "total_citations": 3869,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1002.4734",
+        "format": "pdf",
+        "sha256": "130735ea53195286729b771ec11caf8a9a63e8e53a6b3005fae25657b1613676",
+        "pages": 52,
+        "status": "read",
+        "version": "arXiv 1002.4734v1，2010-02-25；IMS电子重印52页，首页明确原文38(2):894–942且重排页码",
+        "read_scope": "完整阅读重印页1–38摘要、§§1–7全部主体叙述、算法/几何解释、定理及remarks、模拟图表与讨论；并阅读38页附录开头的证明依赖地图。附录38–50页证明未逐行验算，参考文献浏览。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS05.md"
+    },
+    {
+      "id": "AOS06",
+      "title": "High-dimensional graphs and variable selection with the Lasso",
+      "authors": [
+        "Nicolai Meinshausen",
+        "Peter Bühlmann"
+      ],
+      "year": 2006,
+      "doi": "10.1214/009053606000000281",
+      "journal": "The Annals of Statistics",
+      "volume": "34",
+      "issue": "3",
+      "pages": "1436-1462",
+      "article_type": "Original theory and methods research",
+      "topics": [
+        "Gaussian graphical models",
+        "neighborhood selection"
+      ],
+      "selection_reason": "邻域lasso与高维图选择，覆盖从局部估计到整体结构保证及预测/选择目标差别。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 2436,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2010824638",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 114
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 103
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 133
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 118
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 154
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 157
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 171
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 199
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 181
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 166
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 207
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 123
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 153
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 163
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 86
+            }
+          ],
+          "total_citations": 2519,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/math/0608017",
+        "format": "pdf",
+        "sha256": "31ea50275de7a60188bb35b87632eea1d9a58859211abaf06a632a82324bf487",
+        "pages": 28,
+        "status": "read",
+        "version": "IMS electronic reprint hosted as arXiv:math/0608017v1 (2006-08-01), 28 PDF pages; explicitly differs from journal pagination",
+        "read_scope": "已阅读电子重印PDF pp.1–15的摘要及§§1–4全部主体叙述、假设解释、模拟与图表；PDF pp.15–27附录证明未逐行验算，pp.27–28参考文献仅定位。正式期刊页码为1436–1462，不能把重印页码直接加上1435。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS06.md"
+    },
+    {
+      "id": "AOS07",
+      "title": "Measuring and testing dependence by correlation of distances",
+      "authors": [
+        "Gábor J. Székely",
+        "Maria L. Rizzo",
+        "Nail K. Bakirov"
+      ],
+      "year": 2007,
+      "doi": "10.1214/009053607000000505",
+      "journal": "The Annals of Statistics",
+      "volume": "35",
+      "issue": "6",
+      "pages": "2769-2794",
+      "article_type": "Original methods and theory research",
+      "topics": [
+        "distance correlation",
+        "independence testing"
+      ],
+      "selection_reason": "distance covariance与distance correlation，覆盖总体定义、可计算表示和独立性检验。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 2170,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2145979309",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 74
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 105
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 116
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 127
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 189
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 171
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 211
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 278
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 264
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 253
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 273
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 253
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 250
+            }
+          ],
+          "total_citations": 2675,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/0803.4101",
+        "format": "pdf",
+        "sha256": "a687015855e729b84ba343524176ba123f054f2de213810b065c4dd10ad8ce36",
+        "pages": 26,
+        "status": "read",
+        "version": "IMS electronic reprint, arXiv:0803.4101v1 (2008-03-28), 26 PDF pages; title page states pagination differs from 2007 published article",
+        "read_scope": "已阅读电子重印PDF pp.1–24的摘要及§§1–6全部主体叙述、正文证明的解释性段落、扩展、数值比较和图表；pp.24–25代数附录未逐行验算，参考文献只定位。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS07.md"
+    },
+    {
+      "id": "AOS08",
+      "title": "The positive false discovery rate: a Bayesian interpretation and the q-value",
+      "authors": [
+        "John D. Storey"
+      ],
+      "year": 2003,
+      "doi": "10.1214/aos/1074290335",
+      "journal": "The Annals of Statistics",
+      "volume": "31",
+      "issue": "6",
+      "pages": "2013-2035",
+      "article_type": "Original theory and methods research",
+      "topics": [
+        "multiple testing",
+        "positive false discovery rate"
+      ],
+      "selection_reason": "pFDR与q-value的概念理论贡献，覆盖错误度量、后验解释和依赖下近似关系。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1769,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2125905177",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 132
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 108
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 105
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 125
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 128
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 112
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 141
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 101
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 44
+            }
+          ],
+          "total_citations": 2195,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://genomics.princeton.edu/storeylab/papers/Storey_Annals_2003.pdf",
+        "format": "pdf",
+        "sha256": "6cb2bfefe78fead0a4ecbde6a92e6f835deee54c7795ddda4dc17bbea6400e64",
+        "pages": 23,
+        "status": "read",
+        "version": "Published journal typeset copy from Storey institutional site, 23 PDF pages, formal pp.2013–2035",
+        "read_scope": "已阅读全文主体：正式pp.2013–2034的摘要及§§1–8全部叙述、正文证明的解释段、表图及微阵列应用。没有独立证明附录；未逐行验算公式，未重新验证微阵列实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS08.md"
+    },
+    {
+      "id": "AOS09",
+      "title": "The Dantzig selector: Statistical estimation when p is much larger than n",
+      "authors": [
+        "Emmanuel Candes",
+        "Terence Tao"
+      ],
+      "year": 2007,
+      "doi": "10.1214/009053606000001523",
+      "journal": "The Annals of Statistics",
+      "volume": "35",
+      "issue": "6",
+      "pages": "2313-2351",
+      "article_type": "Original methodological and theoretical research",
+      "topics": [
+        "Dantzig selector",
+        "oracle inequalities",
+        "sparse recovery",
+        "linear programming"
+      ],
+      "selection_reason": "Dantzig selector及高维误差理论，覆盖估计构造、几何条件和与既有准则的比较。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1712,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W403935824",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 7
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 6
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 6
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 9
+            }
+          ],
+          "total_citations": 183,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/math/0506081",
+        "format": "pdf",
+        "sha256": "2d90199ff30421133c114d525fca13b84a7ceb23374d8b5f1c37525c42f102bc",
+        "pages": 41,
+        "status": "read",
+        "version": "arXiv math/0506081v3，2008-03-21；IMS电子重印41页，首页注明正式2007年35(6):2313–2351并提示重排页码/字体",
+        "read_scope": "完整阅读重印页1–35摘要、§§1–5全部主体叙述、正文证明的论证结构、数值例子/图表、实现与讨论。附录35–39页pseudo-hard-threshold构造证明未逐行验算，参考文献浏览。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS09.md"
+    },
+    {
+      "id": "AOS10",
+      "title": "Kernel density estimation via diffusion",
+      "authors": [
+        "Z. I. Botev",
+        "J. F. Grotowski",
+        "D. P. Kroese"
+      ],
+      "year": 2010,
+      "doi": "10.1214/10-aos799",
+      "journal": "The Annals of Statistics",
+      "volume": "38",
+      "issue": "5",
+      "pages": "2916-2957",
+      "article_type": "原创方法与计算论文（扩散密度估计及plug-in带宽）",
+      "topics": [
+        "density-estimation",
+        "diffusion"
+      ],
+      "selection_reason": "扩散型核密度估计，覆盖平滑方法从微分方程解释到带宽和边界处理的路径。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1696,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2153464267",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 110
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 139
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 141
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 142
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 145
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 146
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 111
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 118
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 121
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 68
+            }
+          ],
+          "total_citations": 1687,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1011.2602",
+        "format": "pdf",
+        "sha256": "3e8abc707f7dd6e1c27107e47061ed3a683e01047882869363f553338330967e",
+        "pages": 44,
+        "status": "read",
+        "version": "IMS正式电子重印，arXiv v1 2010-11-11，44页；分页与排字不同于原刊",
+        "read_scope": "§1–7完整主文叙述pp.1–29及图表；附录A–D证明组织与解释pp.30–39，附录E二维实施叙述pp.39–41；未逐行验算或重现实验",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS10.md"
+    },
+    {
+      "id": "AOS11",
+      "title": "Generalized random forests",
+      "authors": [
+        "Susan Athey",
+        "Julie Tibshirani",
+        "Stefan Wager"
+      ],
+      "year": 2019,
+      "doi": "10.1214/18-aos1709",
+      "journal": "The Annals of Statistics",
+      "volume": "47",
+      "issue": "2",
+      "pages": "1148-1178",
+      "article_type": "原创方法、算法与渐近推断论文（局部矩条件下的森林）",
+      "topics": [
+        "random-forests",
+        "causal-inference"
+      ],
+      "selection_reason": "generalized random forests，覆盖局部矩条件、算法权重和异质效应推断。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1527,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2730059782",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2014,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 6
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 146
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 196
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 189
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 240
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 311
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 372
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 318
+            }
+          ],
+          "total_citations": 1905,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "http://arxiv.org/pdf/1610.01271",
+        "format": "pdf",
+        "sha256": "16f3e320d67b6a39d47490bbda466df7a42343deb53f4609729a4826b9e649e8",
+        "pages": 49,
+        "status": "read",
+        "version": "arXiv v4 2018-04-05，49页作者稿，页脚2018-04-06；非2019正式排版",
+        "read_scope": "§1–8完整主文叙述pp.1–27，附录A/B证明组织与解释pp.31–44，附录C完整数值叙述pp.44–49；未逐行验算推导",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS11.md"
+    },
+    {
+      "id": "AOS12",
+      "title": "Simultaneous analysis of Lasso and Dantzig selector",
+      "authors": [
+        "Peter J. Bickel",
+        "Ya’acov Ritov",
+        "Alexandre B. Tsybakov"
+      ],
+      "year": 2009,
+      "doi": "10.1214/08-aos620",
+      "journal": "The Annals of Statistics",
+      "volume": "37",
+      "issue": "4",
+      "pages": "1705-1732",
+      "article_type": "Original theory research",
+      "topics": [
+        "high-dimensional regression",
+        "restricted eigenvalues"
+      ],
+      "selection_reason": "在统一受限特征值条件下并行分析lasso与Dantzig，覆盖比较理论及设计反例。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1438,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2116581043",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 125
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 158
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 148
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 202
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 149
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 178
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 176
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 166
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 160
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 198
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 109
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 118
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 60
+            }
+          ],
+          "total_citations": 2409,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/0801.1095",
+        "format": "pdf",
+        "sha256": "307c0dd677d34322416261a92a6e94246f028f845a776e8689771a4da06cdc7a",
+        "pages": 30,
+        "status": "read",
+        "version": "arXiv:0801.1095v3, version stamp 2010-11-09; source recompilation footer 2024-11-26; 30-page corrected author manuscript, not journal pagination",
+        "read_scope": "已阅读作者稿PDF pp.1–19摘要及§§1–7全部主体叙述、定理和条件的解释、末节六项Remarks；附录A/B的证明pp.19–29未逐行验算。正式发表为2009，不把v3或重新编译日期当作发表年。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS12.md"
+    },
+    {
+      "id": "AOS13",
+      "title": "On the distribution of the largest eigenvalue in principal components analysis",
+      "authors": [
+        "Iain M. Johnstone"
+      ],
+      "year": 2001,
+      "doi": "10.1214/aos/1009210544",
+      "journal": "The Annals of Statistics",
+      "volume": "29",
+      "issue": "2",
+      "pages": "295-327",
+      "article_type": "Original theoretical research",
+      "topics": [
+        "principal components",
+        "random matrix theory"
+      ],
+      "selection_reason": "PCA最大特征值的Tracy–Widom近似，覆盖随机矩阵工具与统计解释的连接。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1408,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1520752838",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 114
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 89
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 103
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 109
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 109
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 164
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 114
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 128
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 104
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 89
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 60
+            }
+          ],
+          "total_citations": 1955,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://imjohnstone.su.domains/WEBLIST/2001/LargestEigPcaAnnStat01.pdf",
+        "format": "pdf",
+        "sha256": "57f0813b8523c54dc0fc24524fa3e5c9a135a4360866ead084e4608b0bb9e01f",
+        "pages": 33,
+        "status": "read",
+        "version": "Published journal typeset copy, 33 PDF pages, formal pp.295–327; source from fulltext reading queue",
+        "read_scope": "已阅读正式pp.295–320摘要及§§1–5全部主体叙述、统计解释、数值和应用、证明架构及主体证明的解释段；附录A.1–A.8 pp.320–325未逐行验算，参考文献仅定位。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS13.md"
+    },
+    {
+      "id": "AOS14",
+      "title": "Slice sampling",
+      "authors": [
+        "Radford M. Neal"
+      ],
+      "year": 2003,
+      "doi": "10.1214/aos/1056562461",
+      "journal": "The Annals of Statistics",
+      "volume": "31",
+      "issue": "3",
+      "pages": "705-767",
+      "article_type": "Substantial original methodological synthesis with discussion in the formal publication; read version is an earlier author technical report, not a discussion reply",
+      "topics": [
+        "slice sampling",
+        "adaptive MCMC",
+        "random-walk suppression"
+      ],
+      "selection_reason": "slice sampling的基本算法构造，覆盖不变量、实现选择与计算性能的不同证据。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 1329,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W32980360",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 72
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 58
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 72
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 89
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 83
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 53
+            }
+          ],
+          "total_citations": 1362,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/physics/0009028",
+        "format": "pdf",
+        "sha256": "c6cf46fb834b637b95357ec12f3247540fecd64248051001d7236f469832902d",
+        "pages": 40,
+        "status": "read",
+        "version": "EARLIER AUTHOR VERSION: arXiv:physics/0009028v1, 2000-09-07, Technical Report No.2005, University of Toronto; 40 PDF pages. Formal 2003 AoS 31(3), pp.705–767 includes discussion; the 2003 final narrative and discussions have not been separately obtained or compared",
+        "read_scope": "已读2000作者技术报告PDF pp.1–38摘要及§§1–9全部叙述、图示与伪代码说明、不变性证明论证、所有扩展、漏斗例子及末节比较；pp.38–40参考文献定位。未独立验算每条详细平衡代数或复现实验。本卡不声称已读2003定稿和讨论，期刊定稿行文规范不得仅由此早稿强归纳。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS14.md"
+    },
+    {
+      "id": "AOS15",
+      "title": "Covariance regularization by thresholding",
+      "authors": [
+        "Peter J. Bickel",
+        "Elizaveta Levina"
+      ],
+      "year": 2008,
+      "doi": "10.1214/08-aos600",
+      "journal": "The Annals of Statistics",
+      "volume": "36",
+      "issue": "6",
+      "pages": "2577-2604",
+      "article_type": "Original statistical theory and methodology research; IMS electronic reprint",
+      "topics": [
+        "covariance regularization",
+        "thresholding",
+        "cross-validation"
+      ],
+      "selection_reason": "稀疏协方差阈值估计，覆盖可计算估计、谱误差与数据驱动阈值。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 895,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2098056745",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 68
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 83
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 72
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 68
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 41
+            }
+          ],
+          "total_citations": 894,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/0901.3079",
+        "format": "pdf",
+        "sha256": "048f947d5e8f2813ef84c64b863ea0f481788ff9eb835926c4cec5cf74b81506",
+        "pages": 29,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:0901.3079v1, 2009-01-20; 29 PDF pages; formal 2008 AoS 36(6), pp.2577–2604, pagination differs",
+        "read_scope": "已读PDF pp.1–22摘要及§§1–6全部主体叙述，主结果和证明解释、非正态及近邻比较、CV构造、模拟、气候数据及讨论；pp.22–27附录读证明结构，pp.27–29参考文献定位。未独立验算全部不等式或重现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS15.md"
+    },
+    {
+      "id": "AOS16",
+      "title": "On asymptotically optimal confidence regions and tests for high-dimensional models",
+      "authors": [
+        "Sara van de Geer",
+        "Peter Bühlmann",
+        "Ya’acov Ritov",
+        "Ruben Dezeure"
+      ],
+      "year": 2014,
+      "doi": "10.1214/14-aos1221",
+      "journal": "The Annals of Statistics",
+      "volume": "42",
+      "issue": "3",
+      "pages": "1166-1202",
+      "article_type": "Original high-dimensional inference theory and methodology research; IMS electronic reprint",
+      "topics": [
+        "de-sparsified lasso",
+        "high-dimensional inference",
+        "semiparametric efficiency"
+      ],
+      "selection_reason": "高维置信区域和检验，覆盖去偏构造、目标推断与充分条件的组织。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 757,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2078411132",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2013,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 64
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 70
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 96
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 138
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 108
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 55
+            }
+          ],
+          "total_citations": 1016,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1303.0518",
+        "format": "pdf",
+        "sha256": "e6ee44d3441a792c9ff71d1084bf8b8be3ce35d879fc4a8e6eb53e63a11cbe3d",
+        "pages": 37,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:1303.0518v3, 2014-06-23; 37 PDF pages; formal 2014 AoS 42(3), pp.1166–1202, pagination differs",
+        "read_scope": "已读PDF pp.1–26摘要和§§1–4全部主体叙述、条件与定理含义、GLM扩展、全部数值讨论和真实数据；§5 pp.26–29读证明依赖结构，其余技术证明及外部补充未逐行阅读验算。未重现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS16.md"
+    },
+    {
+      "id": "AOS17",
+      "title": "Wild binary segmentation for multiple change-point detection",
+      "authors": [
+        "Piotr Fryzlewicz"
+      ],
+      "year": 2014,
+      "doi": "10.1214/14-aos1245",
+      "journal": "The Annals of Statistics",
+      "volume": "42",
+      "issue": "6",
+      "pages": "2243-2281",
+      "article_type": "Original randomized change-point methodology and consistency theory research; IMS electronic reprint",
+      "topics": [
+        "change-point detection",
+        "wild binary segmentation",
+        "random localization"
+      ],
+      "selection_reason": "wild binary segmentation，覆盖变点算法的检测机制、速率与计算证据。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 568,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2047287351",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2013,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 96
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 65
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 84
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 53
+            }
+          ],
+          "total_citations": 719,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1411.0858",
+        "format": "pdf",
+        "sha256": "d9dd10ee50f2f378db70dac3928dcca77d75b8bfcaeb6265e9498159e6a19b1d",
+        "pages": 41,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:1411.0858v1, 2014-11-04; 41 PDF pages; formal 2014 AoS 42(6), pp.2243–2281, pagination differs",
+        "read_scope": "已读PDF pp.1–23摘要及§§1–5全部主文叙述、假设与定理解释、参数选择、模拟和金融应用；pp.24–26及34–35读证明布局与非正式说明，pp.35–38附录B/C的实现和失配叙述全读，参考文献定位。其余长证明未逐行验算，未复现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS17.md"
+    },
+    {
+      "id": "AOS18",
+      "title": "Controlling the false discovery rate via knockoffs",
+      "authors": [
+        "Rina Foygel Barber",
+        "Emmanuel J. Candès"
+      ],
+      "year": 2015,
+      "doi": "10.1214/15-aos1337",
+      "journal": "The Annals of Statistics",
+      "volume": "43",
+      "issue": "5",
+      "pages": "2055-2085",
+      "article_type": "Original variable selection and finite-sample inference methodology research; IMS electronic reprint",
+      "topics": [
+        "fixed-X knockoffs",
+        "false discovery rate",
+        "sequential testing"
+      ],
+      "selection_reason": "knockoff filter，覆盖对称构造、有限样本错误控制与功效的衔接。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 561,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2109177042",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 102
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 41
+            }
+          ],
+          "total_citations": 725,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1404.5609",
+        "format": "pdf",
+        "sha256": "ef7d8890de5842cb09028805516cb0d574c0ce3dd1f275add45d80dcf1727080",
+        "pages": 33,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:1404.5609v3, 2015-10-14; 33 PDF pages; formal 2015 AoS 43(5), pp.2055–2085, pagination differs",
+        "read_scope": "已读PDF pp.1–31摘要及§§1–6全部主文叙述、knockoff与knockoff+定义和不同保证、交换性证明及证明提纲、模拟、HIV应用和序贯检验连接；pp.31–33文献定位。未逐行审查外部补充证明或重现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS18.md"
+    },
+    {
+      "id": "AOS19",
+      "title": "The pseudo-marginal approach for efficient Monte Carlo computations",
+      "authors": [
+        "Christophe Andrieu",
+        "Gareth O. Roberts"
+      ],
+      "year": 2009,
+      "doi": "10.1214/07-aos574",
+      "journal": "The Annals of Statistics",
+      "volume": "37",
+      "issue": "2",
+      "pages": "697-725",
+      "article_type": "Original Monte Carlo methodology and convergence theory research; IMS electronic reprint",
+      "topics": [
+        "pseudo-marginal MCMC",
+        "importance sampling",
+        "Markov chain convergence"
+      ],
+      "selection_reason": "pseudo-marginal MCMC的基础框架，覆盖不可算目标、扩展状态空间与采样性质。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 554,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2091860746",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 14
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 62
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 58
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 78
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 14
+            }
+          ],
+          "total_citations": 692,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/0903.5480",
+        "format": "pdf",
+        "sha256": "4650632179858d85bd745c262ff7c95a26ca9e4cdd25e3ba9c122132c68df484",
+        "pages": 30,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:0903.5480v1, 2009-03-31; 30 PDF pages; formal 2009 AoS 37(2), pp.697–725, pagination differs",
+        "read_scope": "已读PDF pp.1–29摘要及§§1–8全部主体叙述、算法对照、假设和定理解释、内嵌证明的叙述及reversible-jump例子；pp.29–30参考文献定位。数学推导阅读其依赖及目的，未独立逐行验算或重现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS19.md"
+    },
+    {
+      "id": "AOS20",
+      "title": "Spectral clustering and the high-dimensional stochastic blockmodel",
+      "authors": [
+        "Karl Rohe",
+        "Sourav Chatterjee",
+        "Bin Yu"
+      ],
+      "year": 2011,
+      "doi": "10.1214/11-aos887",
+      "journal": "The Annals of Statistics",
+      "volume": "39",
+      "issue": "4",
+      "pages": "1878-1915",
+      "article_type": "Original network clustering consistency theory research; IMS electronic reprint",
+      "topics": [
+        "spectral clustering",
+        "stochastic blockmodel",
+        "eigenvector perturbation"
+      ],
+      "selection_reason": "随机块模型下谱聚类理论，覆盖谱扰动、嵌入与聚类错误之间的依赖。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 551,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1967184357",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 15
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 24
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 25
+            }
+          ],
+          "total_citations": 536,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1007.1684",
+        "format": "pdf",
+        "sha256": "663d40a67824037e28ae4a81f47492ce63ce223224bd8fa8bad1a7afa7d1e549",
+        "pages": 39,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:1007.1684v3, 2011-12-13; 39 PDF pages; formal 2011 AoS 39(4), pp.1878–1915, pagination differs",
+        "read_scope": "已读PDF pp.1–25摘要及§§1–6全部主文叙述、算法和模型定义、全部定理解释、三个模拟与五个Facebook网络的假设诊断；pp.25–26读附录证明入口和依赖说明，后续技术推导未逐行验算。未重现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS20.md"
+    },
+    {
+      "id": "AOS21",
+      "title": "Functional linear regression analysis for longitudinal data",
+      "authors": [
+        "Fang Yao",
+        "Hans-Georg Müller",
+        "Jane-Ling Wang"
+      ],
+      "year": 2005,
+      "doi": "10.1214/009053605000000660",
+      "journal": "The Annals of Statistics",
+      "volume": "33",
+      "issue": "6",
+      "pages": "2873-2903",
+      "article_type": "Original functional regression methodology with sparse-data asymptotic theory; IMS electronic reprint",
+      "topics": [
+        "functional linear regression",
+        "sparse longitudinal data",
+        "conditional-expectation prediction"
+      ],
+      "selection_reason": "稀疏纵向观测的函数型线性回归，覆盖函数对象、预测与估计不确定性的衔接。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 546,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2038580754",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 65
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 65
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 23
+            }
+          ],
+          "total_citations": 695,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/math/0603132",
+        "format": "pdf",
+        "sha256": "5aa7ed262724ebc9639cf1f47a16a0b058a95782db632f62a95511dbc1ea1938",
+        "pages": 32,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:math/0603132v1, 2006-03-06; 32 PDF pages; formal 2005 AoS 33(6), pp.2873–2903, pagination differs",
+        "read_scope": "已读PDF pp.1–22摘要及§§1–7全部主文叙述、估计和预测目标、推断/拟合优度定义、模拟、两项纵向应用与渐近结果；pp.23–26读附录假设和全部实施程序，pp.26–30读辅助结果和证明的依赖/解释，pp.31–32文献定位。未独立逐行验算或重现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS21.md"
+    },
+    {
+      "id": "AOS22",
+      "title": "Exact post-selection inference, with application to the lasso",
+      "authors": [
+        "Jason D. Lee",
+        "Dennis L. Sun",
+        "Yuekai Sun",
+        "Jonathan E. Taylor"
+      ],
+      "year": 2016,
+      "doi": "10.1214/15-aos1371",
+      "journal": "The Annals of Statistics",
+      "volume": "44",
+      "issue": "3",
+      "pages": "907-927",
+      "article_type": "Original theory and methodology research; IMS electronic reprint",
+      "topics": [
+        "selective inference",
+        "lasso",
+        "polyhedral conditioning"
+      ],
+      "selection_reason": "lasso之后的精确选择后推断，覆盖选择事件几何、条件分布与区间代价。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 506,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1535995764",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2013,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 87
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 105
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 33
+            }
+          ],
+          "total_citations": 729,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1311.6238",
+        "format": "pdf",
+        "sha256": "d2c874d5f5778e0ef3d87a20030874d9ae3115b9029c00e87241b8b4dd7043af",
+        "pages": 22,
+        "status": "read",
+        "version": "IMS electronic reprint arXiv:1311.6238v8, 2016-05-03, 22 PDF pages; formal AoS 2016 volume 44(3), pp.907–927; reprint pagination differs",
+        "read_scope": "已读取电子重印PDF pp.1–20摘要及§§1–9全部主文叙述、条件覆盖目标、选择事件几何、主定理与证明说明、模拟图和糖尿病应用、未知方差与elastic net扩展；p.20附录单调性证明读其用途，pp.21–22参考文献定位。未独立验算所有代数或复现实验。",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS22.md"
+    },
+    {
+      "id": "AOS23",
+      "title": "Higher criticism for detecting sparse heterogeneous mixtures",
+      "authors": [
+        "David Donoho",
+        "Jiashun Jin"
+      ],
+      "year": 2004,
+      "doi": "10.1214/009053604000000265",
+      "journal": "The Annals of Statistics",
+      "volume": "32",
+      "issue": "3",
+      "pages": "962-994",
+      "article_type": "原创理论与方法论文（稀疏混合检测）",
+      "topics": [
+        "multiple-testing",
+        "sparse-detection"
+      ],
+      "selection_reason": "higher criticism与稀疏混合检测边界，覆盖自适应理论、性能区域与有限样本修正。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 501,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1981106668",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 69
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 19
+            }
+          ],
+          "total_citations": 721,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/math/0410072",
+        "format": "pdf",
+        "sha256": "cfcca06ea5e2b3852549dd896f381b2141c82fffa787787fc6fb6a5db560cbbf",
+        "pages": 34,
+        "status": "read",
+        "version": "IMS正式电子重印本，页码与排字不同于原刊",
+        "read_scope": "摘要、§1–5全部主文叙述和主文证明组织、附录A证明组织与解释；34页文件，未逐行验算证明",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS23.md"
+    },
+    {
+      "id": "AOS24",
+      "title": "Generalized Likelihood Ratio Statistics and Wilks Phenomenon",
+      "authors": [
+        "Jianqing Fan",
+        "Chunming Zhang",
+        "Jian Zhang"
+      ],
+      "year": 2001,
+      "doi": "10.1214/aos/996986505",
+      "journal": "The Annals of Statistics",
+      "volume": "29",
+      "issue": "1",
+      "pages": "153-193",
+      "article_type": "原创理论与方法论文（非参数似然比检验）",
+      "topics": [
+        "nonparametric-testing"
+      ],
+      "selection_reason": "广义似然比及非参数Wilks现象，覆盖理想模型、一般模型与诊断任务的衔接。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 477,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2160455158",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 24
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 7
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 13
+            }
+          ],
+          "total_citations": 667,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pure.tue.nl/ws/files/2283549/Metis214867.pdf",
+        "format": "pdf",
+        "sha256": "f92bf337bfed925a5d314e542356d368405cbeb04be91da7c1d58fd1a3eb9a1b",
+        "pages": 42,
+        "status": "read",
+        "version": "机构托管正式发表PDF，42页含机构封面，原刊153–193",
+        "read_scope": "§1–6全部主文叙述，§7证明组织与解释，原刊153–193；未逐行验算证明",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS24.md"
+    },
+    {
+      "id": "AOS25",
+      "title": "Convergence rates of posterior distributions",
+      "authors": [
+        "Subhashis Ghosal",
+        "Jayanta K. Ghosh",
+        "Aad W. van der Vaart"
+      ],
+      "year": 2000,
+      "doi": "10.1214/aos/1016218228",
+      "journal": "The Annals of Statistics",
+      "volume": "28",
+      "issue": "2",
+      "pages": "500-531",
+      "article_type": "原创基础理论论文（后验收敛速率）",
+      "topics": [
+        "bayesian-nonparametrics",
+        "posterior-contraction"
+      ],
+      "selection_reason": "后验收敛速率的一般理论，覆盖熵、先验质量、检验与多个模型实例。从2000年以来70篇高引候选中兼顾方向、作者和贡献类型选取；持续影响另见逐年引用快照，不宣称唯一前25排名。",
+      "citation_evidence": {
+        "source": "Crossref journal works API",
+        "query_date": "2026-10-19",
+        "count": 436,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2062532221",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 21
+            }
+          ],
+          "total_citations": 670,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://research.vu.nl/ws/portalfiles/portal/1741622/136314.pdf",
+        "format": "pdf",
+        "sha256": "79efafc93db299bf67e8ef3ef6c99305836cb53dcfa018b21d8501868532cebf",
+        "pages": 33,
+        "status": "read",
+        "version": "机构托管正式发表PDF，33页含机构封面，原刊500–531",
+        "read_scope": "§1–7全部主体叙述，实例内证明及§8证明的组织与解释，原刊500–531；未逐行核验证明",
+        "read_at": "2026-10-19"
+      },
+      "note": "papers/AOS25.md"
+    }
+  ]
+}

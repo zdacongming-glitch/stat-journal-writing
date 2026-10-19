@@ -1,0 +1,2667 @@
+{
+  "schema_version": 1,
+  "journal": "JRSS Series B",
+  "journal_id": "jrss-b",
+  "checked_at": "2026-10-19",
+  "core_target": 25,
+  "status": "complete",
+  "selection_policy": "2000年以来正式JRSS-B论文；从70篇长期高引用候选中兼顾方法贡献、方向和作者覆盖；不是唯一客观最经典25篇排名。讨论与补记不重复计数。",
+  "progress": {
+    "selected": 25,
+    "retrieved": 25,
+    "read": 25,
+    "notes_completed": 25
+  },
+  "papers": [
+    {
+      "id": "JRSSB01",
+      "title": "Regularization and Variable Selection Via the Elastic Net",
+      "authors": [
+        "Hui Zou",
+        "Trevor Hastie"
+      ],
+      "year": 2005,
+      "doi": "10.1111/j.1467-9868.2005.00503.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "67",
+      "issue": "2",
+      "pages": "301-320",
+      "article_type": "original-methodology",
+      "topics": [
+        "regularization",
+        "variable-selection"
+      ],
+      "selection_reason": "相关预测变量的联合行为、稀疏性与路径计算连接，长期高引用。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 17640,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2122825543",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 468
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 585
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 727
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 884
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 952
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 1092
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 1340
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 1536
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 1705
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 1925
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 1665
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 1540
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 1651
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 1907
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 1833
+            }
+          ],
+          "total_citations": 20867,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://hastie.su.domains/Papers/elasticnet.pdf",
+        "version": "author revised manuscript, August 2004; matched to journal DOI; publisher addendum also read",
+        "format": "pdf",
+        "sha256": "f4508b15aa5934438c3ac05a50b18edd39f2261f570ce2de465b6326522d03ae",
+        "pages": 29,
+        "read_scope": "Main sections 1–7, PDF pp.1–25; proof appendix not independently verified; published addendum read",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB01.md"
+    },
+    {
+      "id": "JRSSB02",
+      "title": "Bayesian Measures of Model Complexity and Fit",
+      "authors": [
+        "David J. Spiegelhalter",
+        "Nicola G. Best",
+        "Bradley P. Carlin",
+        "Angelika Van Der Linde"
+      ],
+      "year": 2002,
+      "doi": "10.1111/1467-9868.00353",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "64",
+      "issue": "4",
+      "pages": "583-639",
+      "article_type": "discussion-paper",
+      "topics": [
+        "bayesian-model-assessment"
+      ],
+      "selection_reason": "将有效参数数目和拟合度连接为DIC，覆盖Bayes模型比较。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 10336,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W648151759",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 6
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 1
+            }
+          ],
+          "total_citations": 151,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.maths.usyd.edu.au/u/jormerod/BayesNotes/Papers/SpiegelhalterEtal2002.pdf",
+        "version": "published journal PDF in university repository; missing embedded text on PDF pp.21–22 repaired through OCR",
+        "format": "pdf",
+        "sha256": "e54104e13ae889a48d0fc2a907fb8a1394eb2d42c9cdc53510779127bf50e0d3",
+        "pages": 57,
+        "read_scope": "Main sections 1–9, PDF pp.1–31, journal pp.583–613; complete narrative including OCR pp.21–22 read; derivations not independently verified; external discussion not counted separately",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "text_extraction": "pdftotext plus English WinRT OCR to repair completely missing PDF pp.21–22",
+        "ocr_supplement_sha256": "aabf7dacc22c60f51562e3a6834bedbf9f7eb1e24947ddf134a88b00b91f8761"
+      },
+      "note": "papers/JRSSB02.md"
+    },
+    {
+      "id": "JRSSB03",
+      "title": "Fast Stable Restricted Maximum Likelihood and Marginal Likelihood Estimation of Semiparametric Generalized Linear Models",
+      "authors": [
+        "Simon N. Wood"
+      ],
+      "year": 2011,
+      "doi": "10.1111/j.1467-9868.2010.00749.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "73",
+      "issue": "1",
+      "pages": "3-36",
+      "article_type": "original-methodology",
+      "topics": [
+        "smoothing",
+        "semiparametric-computation"
+      ],
+      "selection_reason": "将数值稳定性、平滑参数估计与统计模型选择连接，覆盖半参数计算。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 6832,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2119160928",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 160
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 202
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 230
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 322
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 374
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 415
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 490
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 562
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 669
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 732
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 805
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 838
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 915
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 722
+            }
+          ],
+          "total_citations": 7554,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://purehost.bath.ac.uk/ws/files/254691/Wood_JRSSB_2011_73_1_3.pdf",
+        "version": "peer reviewed author manuscript in University of Bath repository, with repository cover",
+        "format": "pdf",
+        "sha256": "5e839b7dc6aacf80571d81b3e9c240cab198bc85aa0607297e66062aaea14c44",
+        "pages": 30,
+        "read_scope": "Main sections 1–6, PDF pp.2–22; Appendix A convergence examples read; other technical appendices not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB03.md"
+    },
+    {
+      "id": "JRSSB04",
+      "title": "Model Selection and Estimation in Regression with Grouped Variables",
+      "authors": [
+        "Ming Yuan",
+        "Yi Lin"
+      ],
+      "year": 2006,
+      "doi": "10.1111/j.1467-9868.2005.00532.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "68",
+      "issue": "1",
+      "pages": "49-67",
+      "article_type": "original-methodology",
+      "topics": [
+        "group-variable-selection"
+      ],
+      "selection_reason": "以整组测量因子为选择单位，覆盖结构稀疏及算法比较。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 5494,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2138019504",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 388
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 427
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 495
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 468
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 505
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 485
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 479
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 571
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 470
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 561
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 406
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 361
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 376
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 312
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 213
+            }
+          ],
+          "total_citations": 7258,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.columbia.edu/~my2550/papers/glasso.final.pdf",
+        "version": "published journal PDF on author Columbia website",
+        "format": "pdf",
+        "sha256": "39f6ab1b5c599224db4a16463eb7e5506affaaec3f83c575e53fc22b4e38b23f",
+        "pages": 19,
+        "read_scope": "Main sections 1–9, PDF pp.1–16, journal pp.49–64; appendix proof structure inspected without independent verification",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB04.md"
+    },
+    {
+      "id": "JRSSB05",
+      "title": "Estimating the Number of Clusters in a Data Set Via the Gap Statistic",
+      "authors": [
+        "Robert Tibshirani",
+        "Guenther Walther",
+        "Trevor Hastie"
+      ],
+      "year": 2001,
+      "doi": "10.1111/1467-9868.00293",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "63",
+      "issue": "2",
+      "pages": "411-423",
+      "article_type": "original-methodology",
+      "topics": [
+        "clustering"
+      ],
+      "selection_reason": "将簇内离散程度与无簇参考分布比较，覆盖无监督模型选择。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 5037,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W101836494",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 177
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 175
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 230
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 215
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 279
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 329
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 398
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 419
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 492
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 542
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 451
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 455
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 460
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 399
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 354
+            }
+          ],
+          "total_citations": 6185,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://hastie.su.domains/Papers/gap.pdf",
+        "version": "published journal PDF on author website; scanned original read through full English OCR",
+        "format": "pdf",
+        "sha256": "76dbd654f172b076a31bc3bff39c8bcf4bd43c8d354eaa378222fe9dc78cdae0",
+        "pages": 13,
+        "read_scope": "Main sections 1–5, published PDF pp.1–11; proof narrative pp.12–13 read without independent verification; original 13-page scan preserved",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "text_extraction": "English WinRT OCR of complete scanned/misencoded PDF",
+        "extracted_text_sha256": "31b79225df8ff022a2f6e0e55a4255fc1a76ab01d85d3f32bbe05b78dde65808"
+      },
+      "note": "papers/JRSSB05.md"
+    },
+    {
+      "id": "JRSSB06",
+      "title": "A Direct Approach to False Discovery Rates",
+      "authors": [
+        "John D. Storey"
+      ],
+      "year": 2002,
+      "doi": "10.1111/1467-9868.00346",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "64",
+      "issue": "3",
+      "pages": "479-498",
+      "article_type": "original-methodology",
+      "topics": [
+        "multiple-testing"
+      ],
+      "selection_reason": "固定拒绝域后估计错误率，覆盖多重检验及q-value。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 4703,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2105381419",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 364
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 348
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 340
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 255
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 297
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 274
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 279
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 249
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 249
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 278
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 201
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 245
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 239
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 183
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 155
+            }
+          ],
+          "total_citations": 5597,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://genomics.princeton.edu/storeylab/papers/directfdr.pdf",
+        "version": "published journal PDF on author website, with separate author errata",
+        "format": "pdf",
+        "sha256": "8cc0f701ade632acd4864d3456d3a13889b38bec60fb55160b2328c7384e773f",
+        "pages": 20,
+        "read_scope": "Main sections 1–10, PDF pp.1–17; author errata read; proof appendix not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB06.md"
+    },
+    {
+      "id": "JRSSB07",
+      "title": "Approximate Bayesian Inference for Latent Gaussian models by using Integrated Nested Laplace Approximations",
+      "authors": [
+        "Håvard Rue",
+        "Sara Martino",
+        "Nicolas Chopin"
+      ],
+      "year": 2009,
+      "doi": "10.1111/j.1467-9868.2008.00700.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "71",
+      "issue": "2",
+      "pages": "319-392",
+      "article_type": "discussion-paper",
+      "topics": [
+        "bayesian-computation",
+        "latent-gaussian-models"
+      ],
+      "selection_reason": "在限定模型类内以确定性近似代替通用MCMC，覆盖近似推断。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 4438,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2144898279",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 142
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 164
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 180
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 238
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 242
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 252
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 307
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 384
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 425
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 487
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 494
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 419
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 430
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 497
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 397
+            }
+          ],
+          "total_citations": 5264,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.math.ntnu.no/preprint/statistics/2007/S1-2007.pdf",
+        "version": "NTNU 2007 author preprint with cover, matched to 2009 journal DOI; early version explicitly distinguished from published discussion paper",
+        "format": "pdf",
+        "sha256": "1b4ec880cc54ca3a434f3543f839020c19ff691233d28e295669e4e44f69b30f",
+        "pages": 28,
+        "read_scope": "Main sections 1–7, PDF pp.2–24; appendix and proofs not independently verified; external discussion not counted separately",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB07.md"
+    },
+    {
+      "id": "JRSSB08",
+      "title": "Bayesian Calibration of Computer Models",
+      "authors": [
+        "Marc C. Kennedy",
+        "Anthony O'Hagan"
+      ],
+      "year": 2001,
+      "doi": "10.1111/1467-9868.00294",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "63",
+      "issue": "3",
+      "pages": "425-464",
+      "article_type": "discussion-paper",
+      "topics": [
+        "computer-experiments",
+        "calibration"
+      ],
+      "selection_reason": "联合校准参数、模型偏差与预测不确定性，覆盖计算机实验。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 3558,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1973333099",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 158
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 166
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 187
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 213
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 207
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 238
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 262
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 263
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 319
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 339
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 305
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 282
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 231
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 262
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 304
+            }
+          ],
+          "total_citations": 4196,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/kennedy01.pdf?download=1",
+        "version": "28-page author manuscript preserved in OSU course repository; no published journal header; full English OCR used because embedded font mapping is damaged",
+        "format": "pdf",
+        "sha256": "603b3bda06524655268b363b84b4e2777c69b40949dcab4e1a27c35b1345dcc6",
+        "pages": 28,
+        "read_scope": "Main sections 1–7, PDF pp.1–24; all narrative read through complete OCR; symbols checked structurally against PDF without independent mathematical verification; external discussion not included",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "text_extraction": "English WinRT OCR of complete scanned/misencoded PDF",
+        "extracted_text_sha256": "f5fa725ecdfd8a16d56102bd79a5f3a1f5907d9df4e8dcffc9197556e94e3eca"
+      },
+      "note": "papers/JRSSB08.md"
+    },
+    {
+      "id": "JRSSB09",
+      "title": "An Explicit Link between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach",
+      "authors": [
+        "Finn Lindgren",
+        "Håvard Rue",
+        "Johan Lindström"
+      ],
+      "year": 2011,
+      "doi": "10.1111/j.1467-9868.2011.00777.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "73",
+      "issue": "4",
+      "pages": "423-498",
+      "article_type": "discussion-paper",
+      "topics": [
+        "spatial-statistics"
+      ],
+      "selection_reason": "以SPDE连接连续场和稀疏精度，覆盖空间模型与计算。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 2307,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1837874438",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 74
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 113
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 140
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 176
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 220
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 244
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 277
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 254
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 242
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 236
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 264
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 210
+            }
+          ],
+          "total_citations": 2695,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://joeid.folk.ntnu.no/StatGr/Lindgren_etal.pdf",
+        "version": "published journal PDF with JSTOR cover in university repository; complete main-text OCR used to repair missing narrative in embedded extraction",
+        "format": "pdf",
+        "sha256": "22e5a00eea6d233f22a4666eeac8476c1eb57fe3a71af093a985e809f9fbfda3",
+        "pages": 77,
+        "read_scope": "Main sections 1–5, PDF pp.2–22, journal pp.423–443; all main narrative reread through complete OCR; technical appendices and discussion not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "text_extraction": "English WinRT OCR of all main-text pages, PDF pp.2–22",
+        "extracted_text_sha256": "c6830992822c384000e5035985c66fdb5be620b7dae4aa57638419a4499a2474"
+      },
+      "note": "papers/JRSSB09.md"
+    },
+    {
+      "id": "JRSSB10",
+      "title": "Stability Selection",
+      "authors": [
+        "Nicolai Meinshausen",
+        "Peter Bühlmann"
+      ],
+      "year": 2010,
+      "doi": "10.1111/j.1467-9868.2010.00740.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "72",
+      "issue": "4",
+      "pages": "417-473",
+      "article_type": "discussion-paper",
+      "topics": [
+        "variable-selection",
+        "resampling"
+      ],
+      "selection_reason": "以重抽样选择概率构造稳定选择，覆盖可解释的错误控制。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 2238,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2562162676",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 119
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 134
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 145
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 145
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 165
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 164
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 192
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 165
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 116
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 165
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 174
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 288
+            }
+          ],
+          "total_citations": 2259,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://stat.ethz.ch/~nicolai/stability.pdf",
+        "version": "author manuscript matched to published discussion paper",
+        "format": "pdf",
+        "sha256": "c7e3fc4336a3400cc87b095eb7441540d062b90521524208c7b9216f563076c7",
+        "pages": 30,
+        "read_scope": "Main sections 1–5, PDF pp.1–21; Appendix proof narrative inspected but not independently verified; external discussion not counted as another paper",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB10.md"
+    },
+    {
+      "id": "JRSSB11",
+      "title": "Sure Independence Screening for Ultrahigh Dimensional Feature Space",
+      "authors": [
+        "Jianqing Fan",
+        "Jinchi Lv"
+      ],
+      "year": 2008,
+      "doi": "10.1111/j.1467-9868.2008.00674.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "70",
+      "issue": "5",
+      "pages": "849-911",
+      "article_type": "discussion-paper",
+      "topics": [
+        "screening",
+        "high-dimensional-statistics"
+      ],
+      "selection_reason": "边际筛选与后续选择衔接，覆盖超高维建模。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 2117,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2154560360",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 109
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 129
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 143
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 158
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 167
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 184
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 189
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 204
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 234
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 224
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 181
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 186
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 176
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 126
+            }
+          ],
+          "total_citations": 2710,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/math/0612857",
+        "version": "arXiv author manuscript v2, 27 August 2008",
+        "format": "pdf",
+        "sha256": "e3fe4ea21815366a99b93d10779bf949f2bdbf90eef3bf66063933439b8429af",
+        "pages": 43,
+        "read_scope": "Main sections 1–6, PDF pp.1–29; appendix proofs not independently verified; external discussion not separately counted",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB11.md"
+    },
+    {
+      "id": "JRSSB12",
+      "title": "Thin Plate Regression Splines",
+      "authors": [
+        "Simon N. Wood"
+      ],
+      "year": 2003,
+      "doi": "10.1111/1467-9868.00374",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "65",
+      "issue": "1",
+      "pages": "95-114",
+      "article_type": "original-methodology",
+      "topics": [
+        "smoothing"
+      ],
+      "selection_reason": "以低秩基连接理想平滑问题、计算和GAM应用。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 2100,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2140308441",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 78
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 93
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 127
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 143
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 177
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 246
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 195
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 220
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 202
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 209
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 164
+            }
+          ],
+          "total_citations": 2453,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stat.cmu.edu/~brian/valerie/617-2022/617-2021/week14/spline%20references/wood%20-%20thin%20place%20regression%20splines.pdf",
+        "version": "published journal PDF in university course repository",
+        "format": "pdf",
+        "sha256": "09b2240d88c3463433d830cc61494cf90c22af98f1f67f87197ce4352fb9eb6d",
+        "pages": 20,
+        "read_scope": "Main sections 1–5, PDF pp.1–18 and implementation Appendix A; Appendix B not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB12.md"
+    },
+    {
+      "id": "JRSSB13",
+      "title": "Sparsity and Smoothness Via the Fused Lasso",
+      "authors": [
+        "Robert Tibshirani",
+        "Michael Saunders",
+        "Saharon Rosset",
+        "Ji Zhu",
+        "Keith Knight"
+      ],
+      "year": 2005,
+      "doi": "10.1111/j.1467-9868.2005.00490.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "67",
+      "issue": "1",
+      "pages": "91-108",
+      "article_type": "original-methodology",
+      "topics": [
+        "regularization",
+        "ordered-features"
+      ],
+      "selection_reason": "同时约束系数与相邻差分，覆盖有序特征的结构建模。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 2043,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2140514146",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 145
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 171
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 179
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 188
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 187
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 217
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 239
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 173
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 211
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 153
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 166
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 136
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 135
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 79
+            }
+          ],
+          "total_citations": 2734,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://dept.stat.lsa.umich.edu/~jizhu/pubs/Tibshirani-JRSSB05.pdf",
+        "version": "published journal PDF on author website",
+        "format": "pdf",
+        "sha256": "c4dae04de6b289655b4a1dd0c8587a40deeda73f0081b00bcaa90870c5fc366b",
+        "pages": 18,
+        "read_scope": "Main sections 1–11, PDF pp.1–17; theorem statements and narrative read; proofs not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB13.md"
+    },
+    {
+      "id": "JRSSB14",
+      "title": "Non-Gaussian Ornstein–Uhlenbeck-based Models and Some of Their Uses in Financial Economics",
+      "authors": [
+        "Ole E. Barndorff-Nielsen",
+        "Neil Shephard"
+      ],
+      "year": 2001,
+      "doi": "10.1111/1467-9868.00282",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "63",
+      "issue": "2",
+      "pages": "167-241",
+      "article_type": "discussion-paper",
+      "topics": [
+        "financial-time-series"
+      ],
+      "selection_reason": "从非Gaussian过程构造到金融时间序列推断，覆盖持续应用组织。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 1549,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2031817855",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 106
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 64
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 77
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 74
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 36
+            }
+          ],
+          "total_citations": 1798,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://shephard.scholars.harvard.edu/sites/g/files/omnuum7741/files/jrssb01.pdf",
+        "version": "published journal PDF on author Harvard website; legacy font ligatures imperfect in extraction",
+        "format": "pdf",
+        "sha256": "ebbfb5aad7b3eddc385a96aed7b7b330b48e2556f62c44fdf5d777051746e5d9",
+        "pages": 75,
+        "read_scope": "Main sections 1–7, PDF pp.1–35, journal pp.167–201; all narrative read with context for legacy ligatures; mathematical derivations, appendix proofs and external discussion not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB14.md"
+    },
+    {
+      "id": "JRSSB15",
+      "title": "Particle Markov Chain Monte Carlo Methods",
+      "authors": [
+        "Christophe Andrieu",
+        "Arnaud Doucet",
+        "Roman Holenstein"
+      ],
+      "year": 2010,
+      "doi": "10.1111/j.1467-9868.2009.00736.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "72",
+      "issue": "3",
+      "pages": "269-342",
+      "article_type": "discussion-paper",
+      "topics": [
+        "monte-carlo",
+        "state-space-models"
+      ],
+      "selection_reason": "将SMC构造嵌入具有正确目标的MCMC，覆盖算法框架与主文层次。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 1454,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1501586228",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 106
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 144
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 188
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 143
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 146
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 153
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 165
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 153
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 141
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 135
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 116
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 83
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 87
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 46
+            }
+          ],
+          "total_citations": 1973,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf",
+        "version": "published journal PDF on author Oxford website",
+        "format": "pdf",
+        "sha256": "d76a44dc06ec440c531370ee01e3c370780aa0ac83c55f3b5231b03201de71d5",
+        "pages": 74,
+        "read_scope": "Main sections 1–5, PDF pp.1–30, journal pp.269–298; implementation Appendix A, PDF p.31, read; proof structure inspected without independent verification; discussion not counted separately",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB15.md"
+    },
+    {
+      "id": "JRSSB16",
+      "title": "Probabilistic Forecasts, Calibration and Sharpness",
+      "authors": [
+        "Tilmann Gneiting",
+        "Fadoua Balabdaoui",
+        "Adrian E. Raftery"
+      ],
+      "year": 2007,
+      "doi": "10.1111/j.1467-9868.2007.00587.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "69",
+      "issue": "2",
+      "pages": "243-268",
+      "article_type": "original-methodology",
+      "topics": [
+        "probabilistic-forecasting"
+      ],
+      "selection_reason": "区分校准和锐度并形成预测诊断，覆盖概念与应用连接。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 1421,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2130715829",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 58
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 89
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 119
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 141
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 175
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 140
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 133
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 112
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 122
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 159
+            }
+          ],
+          "total_citations": 1763,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://hal.science/hal-00363242/document",
+        "version": "author revised manuscript marked Revision 1 in HAL repository, with HAL cover",
+        "format": "pdf",
+        "sha256": "2e13d223b15d3b5dd090f120a372ba9a70a8e0bc151a0d2a4890d98a0e5bcd22",
+        "pages": 29,
+        "read_scope": "Main sections 1–5, PDF pp.2–25; appendix proofs not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB16.md"
+    },
+    {
+      "id": "JRSSB17",
+      "title": "Sequential Monte Carlo Samplers",
+      "authors": [
+        "Pierre Del Moral",
+        "Arnaud Doucet",
+        "Ajay Jasra"
+      ],
+      "year": 2006,
+      "doi": "10.1111/j.1467-9868.2006.00553.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "68",
+      "issue": "3",
+      "pages": "411-436",
+      "article_type": "original-methodology",
+      "topics": [
+        "monte-carlo"
+      ],
+      "selection_reason": "构造一般序列目标上的SMC采样器，覆盖框架式贡献。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 1228,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2147357149",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 105
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 104
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 89
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 101
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 105
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 60
+            }
+          ],
+          "total_citations": 1639,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stats.ox.ac.uk/~doucet/delmoral_doucet_jasra_sequentialmontecarlosamplersJRSSB.pdf",
+        "version": "published journal PDF on author website",
+        "format": "pdf",
+        "sha256": "329c0aa1a4ba332a7cfa39e7eaa618fa6366936053d4198a70665b736a462dcd",
+        "pages": 26,
+        "read_scope": "Main sections 1–6, PDF pp.1–24, journal pp.411–434; appendix proofs not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB17.md"
+    },
+    {
+      "id": "JRSSB18",
+      "title": "Covariate Balancing Propensity Score",
+      "authors": [
+        "Kosuke Imai",
+        "Marc Ratkovic"
+      ],
+      "year": 2014,
+      "doi": "10.1111/rssb.12027",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "76",
+      "issue": "1",
+      "pages": "243-263",
+      "article_type": "original-methodology",
+      "topics": [
+        "causal-inference"
+      ],
+      "selection_reason": "把处理分配模型和协变量平衡结合，覆盖因果推断。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 1121,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2132324013",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 12
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 84
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 101
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 164
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 158
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 154
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 152
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 175
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 110
+            }
+          ],
+          "total_citations": 1324,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://imai.fas.harvard.edu/research/files/CBPS.pdf",
+        "version": "published journal PDF on author website",
+        "format": "pdf",
+        "sha256": "41582fa7b598f05ac8173d2aba770e0677f1357f0e0943d31280347bf098121e",
+        "pages": 21,
+        "read_scope": "Main sections 1–5, PDF pp.1–19, journal pp.243–261; references excluded from narrative analysis",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB18.md"
+    },
+    {
+      "id": "JRSSB19",
+      "title": "Riemann Manifold Langevin and Hamiltonian Monte Carlo Methods",
+      "authors": [
+        "Mark Girolami",
+        "Ben Calderhead"
+      ],
+      "year": 2011,
+      "doi": "10.1111/j.1467-9868.2010.00765.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "73",
+      "issue": "2",
+      "pages": "123-214",
+      "article_type": "discussion-paper",
+      "topics": [
+        "monte-carlo",
+        "geometry"
+      ],
+      "selection_reason": "通过局部几何改进MCMC提议，覆盖跨数学工具的方法叙述。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 1062,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1545319692",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 64
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 113
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 107
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 113
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 153
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 122
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 129
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 121
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 99
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 61
+            }
+          ],
+          "total_citations": 1477,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://statistics.fas.harvard.edu/sites/g/files/omnuum10116/files/statistics-2/files/xlm_jroystatsocb73-2_123-214_2011.pdf",
+        "version": "published journal PDF in Harvard statistics repository",
+        "format": "pdf",
+        "sha256": "afdcf5972b9fb951fdbc4232528b1e95661052e6c252670d5a0c8a3b55892f0c",
+        "pages": 92,
+        "read_scope": "Main sections 1–11, PDF pp.1–33, journal pp.123–155; implementation narrative in Appendices A–C read without independently checking derivatives; external discussion not counted separately",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB19.md"
+    },
+    {
+      "id": "JRSSB20",
+      "title": "Dealing With Label Switching in Mixture Models",
+      "authors": [
+        "Matthew Stephens"
+      ],
+      "year": 2000,
+      "doi": "10.1111/1467-9868.00265",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "62",
+      "issue": "4",
+      "pages": "795-809",
+      "article_type": "original-methodology",
+      "topics": [
+        "mixture-models"
+      ],
+      "selection_reason": "从标签对称造成的后验汇总失败到决策论统一重标记。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 778,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2087101057",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 78
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 50
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 67
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 38
+            }
+          ],
+          "total_citations": 1072,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://stephenslab.uchicago.edu/assets/papers/Stephens2000b.pdf",
+        "version": "published journal PDF on author website",
+        "format": "pdf",
+        "sha256": "63e461ae84eeb921a4309cd67585a5d1e43c1688256fb75dc4fc8dc631616ee6",
+        "pages": 15,
+        "read_scope": "Main sections 1–6 and computational Appendix A, PDF pp.1–14; no independent mathematical verification",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB20.md"
+    },
+    {
+      "id": "JRSSB21",
+      "title": "Gaussian Predictive Process Models for Large Spatial Data Sets",
+      "authors": [
+        "Sudipto Banerjee",
+        "Alan E. Gelfand",
+        "Andrew O. Finley",
+        "Huiyan Sang"
+      ],
+      "year": 2008,
+      "doi": "10.1111/j.1467-9868.2008.00663.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "70",
+      "issue": "4",
+      "pages": "825-848",
+      "article_type": "original-methodology",
+      "topics": [
+        "spatial-statistics"
+      ],
+      "selection_reason": "在保持空间过程解释的同时实现低秩计算，覆盖大型空间数据。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 733,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2004807582",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 69
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 77
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 31
+            }
+          ],
+          "total_citations": 997,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2741335/unicode",
+        "version": "NCBI PMC author manuscript in complete BioC XML; some inline citation/formula content absent and character encoding imperfect",
+        "format": "xml",
+        "sha256": "a689741fd3b58031016b49743c110ae2e91d032dfae1ebfe2541619612809cbf",
+        "pages": null,
+        "read_scope": "Abstract and main sections 1–6, all figure captions and tables, appendix narrative read; section-based locators only; mathematical derivations and inline references not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB21.md"
+    },
+    {
+      "id": "JRSSB22",
+      "title": "An Adaptive Estimation of Dimension Reduction Space",
+      "authors": [
+        "Yingcun Xia",
+        "Howell Tong",
+        "W. K. Li",
+        "Li-Xing Zhu"
+      ],
+      "year": 2002,
+      "doi": "10.1111/1467-9868.03411",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "64",
+      "issue": "3",
+      "pages": "363-410",
+      "article_type": "discussion-paper",
+      "topics": [
+        "sufficient-dimension-reduction"
+      ],
+      "selection_reason": "用条件均值拟合构造维数约简，覆盖半参数方法与概念界定。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 653,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2171050905",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 50
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 26
+            }
+          ],
+          "total_citations": 832,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.math.uestc.edu.cn/__local/C/90/85/E60A4514D06FE5FC67CDED2804A_4B9ABA5D_14768C.pdf?e=.pdf",
+        "version": "published journal PDF in university repository",
+        "format": "pdf",
+        "sha256": "839fb61b79cc4633abdd6dcedbb439d94e47c5e88957fd5fe9c3107565bc69b9",
+        "pages": 49,
+        "read_scope": "Main sections 1–6, PDF pp.1–23, journal pp.363–385; Appendix A assumptions and algorithm narrative read, PDF pp.24–25; proofs not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB22.md"
+    },
+    {
+      "id": "JRSSB23",
+      "title": "A General Framework for Updating Belief Distributions",
+      "authors": [
+        "P. G. Bissiri",
+        "C. C. Holmes",
+        "S. G. Walker"
+      ],
+      "year": 2016,
+      "doi": "10.1111/rssb.12158",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "78",
+      "issue": "5",
+      "pages": "1103-1130",
+      "article_type": "original-methodology",
+      "topics": [
+        "general-bayesian-inference"
+      ],
+      "selection_reason": "从损失与先验建立一般更新原则，覆盖基础性方法论。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 309,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2243651912",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2016,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 7
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 43
+            }
+          ],
+          "total_citations": 287,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1306.6430",
+        "version": "arXiv author manuscript v2, 28 January 2016",
+        "format": "pdf",
+        "sha256": "61e04a4123265eb0b91b31b6d5fba19c8a353472532e04c7a2302f76c3d62fb5",
+        "pages": 32,
+        "read_scope": "Main sections 1–6, PDF pp.1–23; appendix proofs and supplementary material not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB23.md"
+    },
+    {
+      "id": "JRSSB24",
+      "title": "Panning for Gold: ‘Model-X’ Knockoffs for High Dimensional Controlled Variable Selection",
+      "authors": [
+        "Emmanuel Candès",
+        "Yingying Fan",
+        "Lucas Janson",
+        "Jinchi Lv"
+      ],
+      "year": 2018,
+      "doi": "10.1111/rssb.12265",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "80",
+      "issue": "3",
+      "pages": "551-577",
+      "article_type": "original-methodology",
+      "topics": [
+        "multiple-testing",
+        "variable-selection"
+      ],
+      "selection_reason": "利用协变量分布构造model-X knockoffs并控制选择错误，覆盖后期经典。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 564,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2963371845",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2016,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 74
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 77
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 62
+            }
+          ],
+          "total_citations": 634,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1610.02351",
+        "version": "arXiv author manuscript v4, 12 December 2017",
+        "format": "pdf",
+        "sha256": "39c0dc6085dd83e40d01d2e98f4c3a21990635abed581d9d0b2b4d0cffa26a8c",
+        "pages": 39,
+        "read_scope": "Main sections 1–8, PDF pp.1–32; appendix proofs not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB24.md"
+    },
+    {
+      "id": "JRSSB25",
+      "title": "Constructing Summary Statistics for Approximate Bayesian Computation: Semi-Automatic Approximate Bayesian Computation",
+      "authors": [
+        "Paul Fearnhead",
+        "Dennis Prangle"
+      ],
+      "year": 2012,
+      "doi": "10.1111/j.1467-9868.2011.01010.x",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "74",
+      "issue": "3",
+      "pages": "419-474",
+      "article_type": "discussion-paper",
+      "topics": [
+        "approximate-bayesian-computation"
+      ],
+      "selection_reason": "以参数估计损失驱动ABC统计量选择，覆盖似然不可计算问题。",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint, sorted is-referenced-by-count; raw response retained in research cache",
+        "url": "https://api.crossref.org/journals/1369-7412/works?filter=from-pub-date:2000-01-01,type:journal-article&sort=is-referenced-by-count&order=desc&rows=70",
+        "query_date": "2026-10-19",
+        "count": 454,
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1594863551",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 19
+            }
+          ],
+          "total_citations": 567,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1004.1112",
+        "version": "arXiv author manuscript v2, 13 April 2011, with shorter author-version title",
+        "format": "pdf",
+        "sha256": "a32ceeedc63a7f0edd8040f390c71d36b7223123f521512a160edbcd4f30f923",
+        "pages": 44,
+        "read_scope": "Main sections 1–5, PDF pp.1–35; Appendix A computational-error narrative, PDF pp.35–36, read; proofs not independently verified; external discussion not counted separately",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB25.md"
+    }
+  ]
+}

@@ -1,0 +1,2754 @@
+{
+  "schema_version": 1,
+  "journal": "Biometrika",
+  "journal_id": "biometrika",
+  "checked_at": "2026-10-19",
+  "core_target": 25,
+  "status": "complete",
+  "selection_policy": "2000年以后正式发表于本刊；从OpenAlex本刊高影响候选池筛选，结合持续使用、领域覆盖和可核验全文，公开稿与终版明确区分；讨论回复、仅摘要和未实际阅读全文叙述者不计数。并非客观唯一前25排名。",
+  "papers": [
+    {
+      "id": "BIOM02",
+      "title": "Adaptive linear step-up procedures that control the false discovery rate",
+      "authors": [
+        "Yoav Benjamini",
+        "Abba M. Krieger",
+        "Daniel Yekutieli"
+      ],
+      "year": 2006,
+      "doi": "10.1093/biomet/93.3.491",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; author manuscript",
+      "topics": [
+        "multiple-testing",
+        "false-discovery-rate"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有3219次引用，已有至少八年观察期；实际阅读全文后，作为multiple-testing, false-discovery-rate方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 3219,
+        "openalex_work": "https://openalex.org/W1980361506",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1980361506",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 70
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 107
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 121
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 163
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 214
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 300
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 311
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 331
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 327
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 332
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 307
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 220
+            }
+          ],
+          "total_citations": 3219,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.math.tau.ac.il/~ybenja/MyPapers/bkymarch9.pdf",
+        "version": "25-page author manuscript on Yoav Benjamini’s university site, including separate end tables and figures; bibliography incorporates 2006 work",
+        "format": "pdf",
+        "sha256": "1aca7207af2c732b513266610e2b46a69c89bd24aed12734baf4dacf5b362ae1",
+        "pages": 25,
+        "read_scope": "Complete narrative of all 25 author-PDF pages: summary, sections 1–8, definitions of compared procedures, FDR bound derivation and theorem statements/proof narrative, simulations, two biological examples, discussion and end tables/figure captions; algebra not independently checked.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM02.md",
+      "publication": {
+        "volume": "93",
+        "issue": "3",
+        "pages": "491-507"
+      }
+    },
+    {
+      "id": "BIOM03",
+      "title": "Extended Bayesian information criteria for model selection with large model spaces",
+      "authors": [
+        "Jie Chen",
+        "Zehua Chen"
+      ],
+      "year": 2008,
+      "doi": "10.1093/biomet/asn034",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article (author manuscript; historical issue category not separately verified)",
+      "topics": [
+        "model-selection",
+        "high-dimensional-regression"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有2013次引用，已有至少八年观察期；实际阅读全文后，作为model-selection, high-dimensional-regression方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 2013,
+        "openalex_work": "https://openalex.org/W2053061982",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2053061982",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 78
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 119
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 128
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 161
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 192
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 188
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 186
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 195
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 238
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 162
+            }
+          ],
+          "total_citations": 2013,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stat.ubc.ca/~jhchen/paper/Bio08.pdf",
+        "version": "author manuscript at Jiahua Chen's UBC site; 27 PDF pages including end tables; DOI matches 2008 Biometrika publication",
+        "format": "pdf",
+        "sha256": "df098b988868c8d4368270130a4167abea4435fd9482a7a290e8c34192c76c4b",
+        "pages": 27,
+        "read_scope": "All main narrative pp.1–17, assumptions and theorem, computational procedure, three simulation cases, appendix proof narrative pp.18–20 and end tables pp.24–27; references inspected; displayed derivations consulted, not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM03.md",
+      "publication": {
+        "volume": "95",
+        "issue": "3",
+        "pages": "759-771"
+      }
+    },
+    {
+      "id": "BIOM04",
+      "title": "The role of the propensity score in estimating dose-response functions",
+      "authors": [
+        "Guido W. Imbens"
+      ],
+      "year": 2000,
+      "doi": "10.1093/biomet/87.3.706",
+      "journal": "Biometrika",
+      "article_type": "Miscellanea (verified in published PDF running header)",
+      "topics": [
+        "causal-inference",
+        "multivalued-treatment",
+        "propensity-score"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有1777次引用，已有至少八年观察期；实际阅读全文后，作为causal-inference, multivalued-treatment, propensity-score方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 1777,
+        "openalex_work": "https://openalex.org/W3122843734",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W3122843734",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 77
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 73
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 89
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 93
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 129
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 106
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 107
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 73
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 62
+            }
+          ],
+          "total_citations": 1777,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.math.mcgill.ca/dstephens/SISCR2017/Articles/Biometrika-2000-Imbens-706-10.pdf",
+        "version": "published Biometrika PDF pp.706–710, hosted in McGill course readings; separate longer 1999 NBER version retained only in research cache",
+        "format": "pdf",
+        "sha256": "ad9106d597a56839f0b832fe42fc66b5687df847c43fe2adb4b7056e067d04db",
+        "pages": 5,
+        "read_scope": "Complete published five-page article: summary, all five sections, two definitions, theorem, conditioning arguments, implementation paragraphs, closing insight and references. Earlier NBER narrative also read for comparison; proof correctness not independently audited.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM04.md",
+      "publication": {
+        "volume": "87",
+        "issue": "3",
+        "pages": "706-710"
+      }
+    },
+    {
+      "id": "BIOM06",
+      "title": "Model selection and estimation in the Gaussian graphical model",
+      "authors": [
+        "Ming Yuan",
+        "Yi Lin"
+      ],
+      "year": 2007,
+      "doi": "10.1093/biomet/asm018",
+      "journal": "Biometrika",
+      "article_type": "methodological article; early author preprint, final issue category not verified",
+      "topics": [
+        "gaussian-graphical-models",
+        "penalized-likelihood"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有1631次引用，已有至少八年观察期；实际阅读全文后，作为gaussian-graphical-models, penalized-likelihood方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 1631,
+        "openalex_work": "https://openalex.org/W2081746825",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2081746825",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 86
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 109
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 123
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 142
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 147
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 113
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 131
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 86
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 64
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 67
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 41
+            }
+          ],
+          "total_citations": 1631,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www2.isye.gatech.edu/~brani/isyestat/05-08.pdf",
+        "version": "author preprint dated 2005-06-01, public Georgia Tech archive; DOI matches 2007 journal paper; corrupt font map recovered with English OCR",
+        "format": "pdf",
+        "sha256": "26d78f16de40d365e36d23c884694e3caf9d85b683ea745104532544bf666f11",
+        "pages": 17,
+        "read_scope": "All 17 PDF pages via complete OCR: abstract, introduction, methodology, optimization and lemmas, tuning, quadratic comparison, eight simulation structures, four data examples, conclusion and references; OCR mathematical symbols not treated as reliable proof transcription.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM06.md",
+      "publication": {
+        "volume": "94",
+        "issue": "1",
+        "pages": "19-35"
+      }
+    },
+    {
+      "id": "BIOM08",
+      "title": "The horseshoe estimator for sparse signals",
+      "authors": [
+        "Carlos M. Carvalho",
+        "Nicholas G. Polson",
+        "James G. Scott"
+      ],
+      "year": 2010,
+      "doi": "10.1093/biomet/asq017",
+      "journal": "Biometrika",
+      "article_type": "early working paper corresponding to regular 2010 journal article; final narrative not obtained",
+      "topics": [
+        "bayesian-shrinkage",
+        "sparse-normal-means",
+        "horseshoe-prior"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有1391次引用，已有至少八年观察期；实际阅读全文后，作为bayesian-shrinkage, sparse-normal-means, horseshoe-prior方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 1391,
+        "openalex_work": "https://openalex.org/W2114169935",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2114169935",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 68
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 126
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 125
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 145
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 143
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 126
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 126
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 119
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 102
+            }
+          ],
+          "total_citations": 1391,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://faculty.chicagobooth.edu/-/media/faculty/nicholas-polson/research/horse.pdf",
+        "version": "30-page early 2008-era working paper from Nicholas Polson’s official university research archive; final 2010 abstract and DOI checked separately; early version differs materially from final article",
+        "format": "pdf",
+        "sha256": "342f50cb7feb86b7d52c74c867871ea919f436ad9608deed044be4d13c588958",
+        "pages": 30,
+        "read_scope": "All 30 author-PDF pages: complete introductory argument and model, density-bounds theorem, shrinkage taxonomy and motivating example, estimation and classification simulations, hyperparameter discussion, conclusion, references and proof appendix. Final published 16-page narrative not available and not claimed read.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM08.md",
+      "publication": {
+        "volume": "97",
+        "issue": "2",
+        "pages": "465-480"
+      }
+    },
+    {
+      "id": "BIOM09",
+      "title": "Dealing with limited overlap in estimation of average treatment effects",
+      "authors": [
+        "Richard K. Crump",
+        "V. Joseph Hotz",
+        "Guido W. Imbens",
+        "Oscar A. Mitnik"
+      ],
+      "year": 2009,
+      "doi": "10.1093/biomet/asn055",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; forthcoming author manuscript",
+      "topics": [
+        "causal-inference",
+        "overlap",
+        "estimand-selection"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有1002次引用，已有至少八年观察期；实际阅读全文后，作为causal-inference, overlap, estimand-selection方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 1002,
+        "openalex_work": "https://openalex.org/W2116943185",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2116943185",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 84
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 84
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 78
+            }
+          ],
+          "total_citations": 1002,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://public.econ.duke.edu/~vjh3/working_papers/overlap.pdf",
+        "version": "23-page author manuscript marked forthcoming in Biometrika, public Duke faculty working-paper archive; formal publication 2009",
+        "format": "pdf",
+        "sha256": "cb3e81324a5f46f879fd8b82f56aab3df93546789939e9144aecab96d0aa1c17",
+        "pages": 23,
+        "read_scope": "All 23 PDF pages: summary, complete introduction and sections 2–4, binary-covariate motivating example, assumptions, theorem/corollary, beta-distribution numerical study, clinical reanalysis, proof sketch, references and end tables/figure caption; external working-paper extensions not read.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM09.md",
+      "publication": {
+        "volume": "96",
+        "issue": "1",
+        "pages": "187-199"
+      }
+    },
+    {
+      "id": "BIOM10",
+      "title": "Square-Root Lasso: Pivotal Recovery of Sparse Signals via Conic Programming",
+      "authors": [
+        "Alexandre Belloni",
+        "Victor Chernozhukov",
+        "Lie Wang"
+      ],
+      "year": 2011,
+      "doi": "10.1093/biomet/asr043",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; revised author version with supplementary appendix",
+      "topics": [
+        "high-dimensional-regression",
+        "pivotal-regularization",
+        "square-root-lasso"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有635次引用，已有至少八年观察期；实际阅读全文后，作为high-dimensional-regression, pivotal-regularization, square-root-lasso方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 635,
+        "openalex_work": "https://openalex.org/W3121832289",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W3121832289",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 24
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 67
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 73
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 108
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 13
+            }
+          ],
+          "total_citations": 635,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1009.5689",
+        "version": "arXiv:1009.5689v5, 2011-12-18; 35-page PDF combining main article and supplementary appendix",
+        "format": "pdf",
+        "sha256": "b86004a8edc4cd2ab18a001fc39e1fb947b004a8dbf2309cecb1e0b53e484c10",
+        "pages": 35,
+        "read_scope": "All main narrative pp.1–12 and supplementary narrative pp.19–25, conditions/theorem statements, conic formulation, all numerical and computational comparisons, end figure captions; proof organization pp.13–17 and 25–30 consulted without independent algebra verification; references inspected.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM10.md",
+      "publication": {
+        "volume": "98",
+        "issue": "4",
+        "pages": "791-806"
+      }
+    },
+    {
+      "id": "BIOM11",
+      "title": "Adaptive approximate Bayesian computation",
+      "authors": [
+        "Mark Beaumont",
+        "Jean‐Marie Cornuet",
+        "Jean‐Michel Marin",
+        "Christian P. Robert"
+      ],
+      "year": 2009,
+      "doi": "10.1093/biomet/asp052",
+      "journal": "Biometrika",
+      "article_type": "methodological correction and computational contribution; historical category not established from author version",
+      "topics": [
+        "likelihood-free-inference",
+        "monte-carlo"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有613次引用，已有至少八年观察期；实际阅读全文后，作为likelihood-free-inference, monte-carlo方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 613,
+        "openalex_work": "https://openalex.org/W2067392831",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2067392831",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 19
+            }
+          ],
+          "total_citations": 613,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/0805.2256",
+        "version": "arXiv:0805.2256v9, 2009-03-28 author version; generated template header is not publication metadata",
+        "format": "pdf",
+        "sha256": "c0fa41f4d70b049dbb0df259d0807ab583a71255c968bee9f97ed142f725f70e",
+        "pages": 8,
+        "read_scope": "Author PDF pp.1–8: complete narrative, weight derivation, algorithm, both illustrations, computational comparison, conclusion and references; derivations read for dependencies, not independently proved.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM11.md",
+      "publication": {
+        "volume": "96",
+        "issue": "4",
+        "pages": "983-990"
+      }
+    },
+    {
+      "id": "BIOM12",
+      "title": "Can the strengths of AIC and BIC be shared? A conflict between model identification and regression estimation",
+      "authors": [
+        "Yuhong Yang"
+      ],
+      "year": 2005,
+      "doi": "10.1093/biomet/92.4.937",
+      "journal": "Biometrika",
+      "article_type": "theoretical contribution; historical category not established from early author preprint",
+      "topics": [
+        "model-selection",
+        "minimax-theory"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有606次引用，已有至少八年观察期；实际阅读全文后，作为model-selection, minimax-theory方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 606,
+        "openalex_work": "https://openalex.org/W2013805643",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2013805643",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 21
+            }
+          ],
+          "total_citations": 606,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://users.stat.umn.edu/~yangx374/papers/Pre-Print_2003-10_Biometrika.pdf",
+        "version": "author preprint dated 2003-12-30; journal publication 2005; early-version structure must not be treated as final typeset layout",
+        "format": "pdf",
+        "sha256": "c44abb07aff9708df5973c3b22a34966ed9f99deb284af195d73042a76a43ae0",
+        "pages": 11,
+        "read_scope": "Author PDF pp.1–11: all introductory argument, risk definition, assumption, proposition, theorem, proof narrative, summary and references; inequalities not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM12.md",
+      "publication": {
+        "volume": "92",
+        "issue": "4",
+        "pages": "937-950"
+      }
+    },
+    {
+      "id": "BIOM15",
+      "title": "A sequential particle filter method for static models",
+      "authors": [
+        "Nicolas Chopin"
+      ],
+      "year": 2002,
+      "doi": "10.1093/biomet/89.3.539",
+      "journal": "Biometrika",
+      "article_type": "regular computational methodology article (published PDF)",
+      "topics": [
+        "sequential-monte-carlo",
+        "bayesian-computation"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有569次引用，已有至少八年观察期；实际阅读全文后，作为sequential-monte-carlo, bayesian-computation方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 569,
+        "openalex_work": "https://openalex.org/W2137307912",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2137307912",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 18
+            }
+          ],
+          "total_citations": 569,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://luiarthur.github.io/padawan/assets/ams268/notes/chopin_2002_smc.pdf",
+        "version": "published Biometrika PDF pp.539–551, public university-course repository",
+        "format": "pdf",
+        "sha256": "30129702da80bf41539abba2f3e7d4d3f07b660582f8c51cc310d7292bbbb393",
+        "pages": 13,
+        "read_scope": "All 13 published PDF pages: complete narrative, particle definition and efficiency, degeneracy discussion, asymptotic theorem statement, full algorithm and seven implementation subsections, both numerical examples, appendix regularity conditions and references; external technical-report proof not read.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM15.md",
+      "publication": {
+        "volume": "89",
+        "issue": "3",
+        "pages": "539-552"
+      }
+    },
+    {
+      "id": "BIOM17",
+      "title": "Scaled sparse linear regression",
+      "authors": [
+        "Tingni Sun",
+        "Cun-Hui Zhang"
+      ],
+      "year": 2012,
+      "doi": "10.1093/biomet/ass043",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; revised author manuscript",
+      "topics": [
+        "high-dimensional-regression",
+        "noise-level-estimation",
+        "scaled-lasso"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有444次引用，已有至少八年观察期；实际阅读全文后，作为high-dimensional-regression, noise-level-estimation, scaled-lasso方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 444,
+        "openalex_work": "https://openalex.org/W2154972590",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2154972590",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 9
+            }
+          ],
+          "total_citations": 444,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1104.4595",
+        "version": "arXiv:1104.4595v2, 2012-06-21, 20 pages; template copyright/year placeholders not used as metadata",
+        "format": "pdf",
+        "sha256": "e3be5f1f237fb3bcef41301b386b00a71059408aa41ed381307fc9746f78ff4c",
+        "pages": 20,
+        "read_scope": "Complete PDF narrative pp.1–20: summary, all main sections 1–5, algorithm and convex equivalence, oracle bounds and interpretations, post-selection least squares, both simulations, real-data evaluation, discussion, appendix proof strategy and references. Displays consulted, not independently proved.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM17.md",
+      "publication": {
+        "volume": "99",
+        "issue": "4",
+        "pages": "879-898"
+      }
+    },
+    {
+      "id": "BIOM18",
+      "title": "A useful variant of the Davis–Kahan theorem for statisticians",
+      "authors": [
+        "Y. Yu",
+        "Tengyao Wang",
+        "Richard J. Samworth"
+      ],
+      "year": 2015,
+      "doi": "10.1093/biomet/asv008",
+      "journal": "Biometrika",
+      "article_type": "short theoretical contribution; historical issue category not established from author version",
+      "topics": [
+        "matrix-perturbation",
+        "spectral-methods"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有442次引用，已有至少八年观察期；实际阅读全文后，作为matrix-perturbation, spectral-methods方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 442,
+        "openalex_work": "https://openalex.org/W2088911135",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2088911135",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2014,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 31
+            }
+          ],
+          "total_citations": 442,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1405.0680",
+        "version": "arXiv:1405.0680v1, 2014-05-04 author preprint; journal publication 2015",
+        "format": "pdf",
+        "sha256": "6f4bc8b6a3cc768097102e54379ca894e92302ab5f9a9516fb55b71116ae0cd4",
+        "pages": 12,
+        "read_scope": "Author PDF pp.1–12: all narrative, theorem and corollary statements, examples, application review, extension, proof organization and references; algebra not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM18.md",
+      "publication": {
+        "volume": "102",
+        "issue": "2",
+        "pages": "315-323"
+      }
+    },
+    {
+      "id": "BIOM20",
+      "title": "Sparse Bayesian infinite factor models",
+      "authors": [
+        "Anirban Bhattacharya",
+        "David B. Dunson"
+      ],
+      "year": 2011,
+      "doi": "10.1093/biomet/asr013",
+      "journal": "Biometrika",
+      "article_type": "regular Bayesian methodology article; complete PMC author manuscript",
+      "topics": [
+        "bayesian-factor-models",
+        "shrinkage-priors",
+        "covariance-estimation"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有414次引用，已有至少八年观察期；实际阅读全文后，作为bayesian-factor-models, shrinkage-priors, covariance-estimation方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 414,
+        "openalex_work": "https://openalex.org/W2029721016",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2029721016",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 15
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 21
+            }
+          ],
+          "total_citations": 414,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3419391/",
+        "version": "complete author manuscript in PMC, linked to 2011 Biometrika publication; includes proof appendix",
+        "format": "html",
+        "sha256": "35658e315cb7ae75a0e30da43bb31c4069670b75b43405bd45ac2035f4c98640",
+        "pages": null,
+        "read_scope": "All HTML main narrative sections 1–5, summary, prior/property statements, Gibbs steps 1–6 separately inspected in HTML lists, adaptive computation, stochastic EM, all simulation and clinical application narrative/captions, appendix proof organization; algebra not independently checked.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM20.md",
+      "publication": {
+        "volume": "98",
+        "issue": "2",
+        "pages": "291-306"
+      }
+    },
+    {
+      "id": "BIOM22",
+      "title": "An efficient Markov chain Monte Carlo method for distributions with intractable normalising constants",
+      "authors": [
+        "Jesper Møller",
+        "Anthony N. Pettitt",
+        "Robert W. Reeves",
+        "Kasper K. Berthelsen"
+      ],
+      "year": 2006,
+      "doi": "10.1093/biomet/93.2.451",
+      "journal": "Biometrika",
+      "article_type": "regular computational methodology article; repository author manuscript",
+      "topics": [
+        "bayesian-computation",
+        "intractable-normalising-constants",
+        "auxiliary-variables"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有352次引用，已有至少八年观察期；实际阅读全文后，作为bayesian-computation, intractable-normalising-constants, auxiliary-variables方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 352,
+        "openalex_work": "https://openalex.org/W2125280835",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2125280835",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 15
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 7
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 11
+            }
+          ],
+          "total_citations": 352,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://eprints.qut.edu.au/7869/1/7869.pdf",
+        "version": "20-page QUT repository author manuscript including cover and separate end figures/tables; linked to published 2006 pp.451–458",
+        "format": "pdf",
+        "sha256": "d00ad47f93756d24018888e7c24b15a577ade22e3aaa0d7acbcc527c3ce9c752",
+        "pages": 20,
+        "read_scope": "All 20 PDF pages: cover, summary, full sections 1–4 narrative, Metropolis–Hastings cancellation derivation, auxiliary-density choice, Ising implementation, analytical and empirical checks, discussion, references and all table/figure captions. Algebra not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM22.md",
+      "publication": {
+        "volume": "93",
+        "issue": "2",
+        "pages": "451-458"
+      }
+    },
+    {
+      "id": "BIOM24",
+      "title": "Identifying causal effects with proxy variables of an unmeasured confounder",
+      "authors": [
+        "Wang Miao",
+        "Zhi Geng",
+        "Eric J. Tchetgen Tchetgen"
+      ],
+      "year": 2018,
+      "doi": "10.1093/biomet/asy038",
+      "journal": "Biometrika",
+      "article_type": "Miscellanea (running header in author version)",
+      "topics": [
+        "causal-inference",
+        "proxy-variables",
+        "identification"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有231次引用，已有至少八年观察期；实际阅读全文后，作为causal-inference, proxy-variables, identification方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 231,
+        "openalex_work": "https://openalex.org/W2962685611",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2962685611",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2017,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 29
+            }
+          ],
+          "total_citations": 231,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1609.08816",
+        "version": "arXiv:1609.08816v4, 2018-06-28 author version; journal publication 2018",
+        "format": "pdf",
+        "sha256": "82d0f5e14074da35ccbeab5b5df93101836a2a1daee4a275c7a2b2e4ee964e37",
+        "pages": 8,
+        "read_scope": "Author PDF pp.1–8: complete main narrative, graph/table, identification formulas, conditions, theorem statements, testing argument, discussion, appendix proposition and references; supplementary proofs and simulations not retrieved or counted as read.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM24.md",
+      "publication": {
+        "volume": "105",
+        "issue": "4",
+        "pages": "987-993"
+      }
+    },
+    {
+      "id": "BIOM25",
+      "title": "Going off grid: computationally efficient inference for log-Gaussian Cox processes",
+      "authors": [
+        "Daniel Simpson",
+        "Janine B. Illian",
+        "Finn Lindgren",
+        "Sigrunn H. Sørbye",
+        "Håvard Rue"
+      ],
+      "year": 2016,
+      "doi": "10.1093/biomet/asv064",
+      "journal": "Biometrika",
+      "article_type": "regular computational methodology article; revised author manuscript",
+      "topics": [
+        "spatial-point-processes",
+        "log-gaussian-cox-processes",
+        "computational-approximation"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有215次引用，已有至少八年观察期；实际阅读全文后，作为spatial-point-processes, log-gaussian-cox-processes, computational-approximation方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 215,
+        "openalex_work": "https://openalex.org/W1818484123",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1818484123",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 14
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 15
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 18
+            }
+          ],
+          "total_citations": 215,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1111.0641",
+        "version": "arXiv:1111.0641v3, 2015-10-30, 22 pages; formal publication 2016; author version contains visible drafting residues and unresolved conjecture",
+        "format": "pdf",
+        "sha256": "4f69559ea4434db4c168fe3fe9149b015e226224d8371ebaba97c205a0ac9798",
+        "pages": 22,
+        "read_scope": "Complete main narrative pp.1–14, likelihood and random-field constructions, convergence statements, three examples, discussion, all captions; appendix pp.15–21 read for approximation roles, fixed-hyperparameter scope and conjecture, not independent proof verification; references inspected.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM25.md",
+      "publication": {
+        "volume": "103",
+        "issue": "1",
+        "pages": "49-70"
+      }
+    },
+    {
+      "id": "BIOM26",
+      "title": "Tuning parameter selectors for the smoothly clipped absolute deviation method",
+      "authors": [
+        "Hansheng Wang",
+        "Runze Li",
+        "Chih-Ling Tsai"
+      ],
+      "year": 2007,
+      "doi": "10.1093/biomet/asm053",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; complete PMC author manuscript",
+      "topics": [
+        "model-selection",
+        "penalty-tuning",
+        "semiparametric-regression"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有768次引用，已有至少八年观察期；实际阅读全文后，作为model-selection, penalty-tuning, semiparametric-regression方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 768,
+        "openalex_work": "https://openalex.org/W2086205459",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2086205459",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 70
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 23
+            }
+          ],
+          "total_citations": 768,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663963/",
+        "version": "complete author manuscript in PMC, linked to 2007 Biometrika DOI",
+        "format": "html",
+        "sha256": "a1a94f65d96e6c6184e6bc798b00207259f4b7af7b2ab530068aee91ef665b8c",
+        "pages": null,
+        "read_scope": "Complete HTML narrative: summary, sections 1–6, conditions, lemma/theorem statements and explanatory text, partially linear extension, simulations and labour-supply example, discussion, appendix proof narrative and regularity conditions. Equations consulted without independent verification.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM26.md",
+      "publication": {
+        "volume": "94",
+        "issue": "3",
+        "pages": "553-568"
+      }
+    },
+    {
+      "id": "BIOM27",
+      "title": "Joint estimation of multiple graphical models",
+      "authors": [
+        "Jian Guo",
+        "Elizaveta Levina",
+        "George Michailidis",
+        "Ji Zhu"
+      ],
+      "year": 2011,
+      "doi": "10.1093/biomet/asq060",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; complete PMC author manuscript",
+      "topics": [
+        "gaussian-graphical-models",
+        "joint-estimation",
+        "heterogeneous-data"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有433次引用，已有至少八年观察期；实际阅读全文后，作为gaussian-graphical-models, joint-estimation, heterogeneous-data方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 433,
+        "openalex_work": "https://openalex.org/W2163707651",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2163707651",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 20
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 13
+            }
+          ],
+          "total_citations": 433,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3412604/",
+        "version": "complete PMC author manuscript, issue date March 2011; main article and proof appendix",
+        "format": "html",
+        "sha256": "12dca9df746cfad10629c8a332f926044ccdfc98f2422ca2eaacf9b1f07147f9",
+        "pages": null,
+        "read_scope": "Complete HTML summary, sections 1–5, local-minimizer equivalence lemmas, iterative algorithm, model selection, consistency and sparsistency theorem interpretations, all three simulation networks, webpage application and appendix proof narrative; external omitted lemma proofs not read.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM27.md",
+      "publication": {
+        "volume": "98",
+        "issue": "1",
+        "pages": "1-15"
+      }
+    },
+    {
+      "id": "BIOM28",
+      "title": "Maximum projection designs for computer experiments",
+      "authors": [
+        "V. Roshan Joseph",
+        "Evren Gul",
+        "Shan Ba"
+      ],
+      "year": 2015,
+      "doi": "10.1093/biomet/asv002",
+      "journal": "Biometrika",
+      "article_type": "regular methodological article; published Advance Access PDF",
+      "topics": [
+        "experimental-design",
+        "computer-experiments"
+      ],
+      "selection_reason": "2015年提出的maximum projection设计成为持续使用的计算机试验设计准则，作者维护的MaxPro软件及CRAN文档仍将本文列为基础来源（https://cran.r-project.org/package=MaxPro）。OpenAlex查询有336次引用；保留该文也使核心库覆盖试验设计，避免高维回归独占样本。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 336,
+        "openalex_work": "https://openalex.org/W2150705946",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2150705946",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2015,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 12
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 24
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 36
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 36
+            }
+          ],
+          "total_citations": 336,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/max_projection_designs_roshan2015.pdf",
+        "version": "published Advance Access PDF, 2015-03-18, ten pages; journal volume 102, pp.371–380",
+        "format": "pdf",
+        "sha256": "cadc334834537ea507e2c5e81366f8eda8823a16ebd7e3abccd49668b0f42de1",
+        "pages": 10,
+        "read_scope": "Complete ten-page published PDF: summary, all five main sections, criterion and theorem statements, optimization description, both numerical comparison suites and figure captions, appendices and references; proof organization read, calculations not independently checked.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM28.md",
+      "publication": {
+        "volume": "102",
+        "issue": "2",
+        "pages": "371-380"
+      }
+    },
+    {
+      "id": "BIOM29",
+      "title": "Efficient implementation of Markov chain Monte Carlo when using an unbiased likelihood estimator",
+      "authors": [
+        "Arnaud Doucet",
+        "Michael K. Pitt",
+        "George Deligiannidis",
+        "Robert Kohn"
+      ],
+      "year": 2015,
+      "doi": "10.1093/biomet/asu075",
+      "journal": "Biometrika",
+      "article_type": "regular computational theory article; repository accepted manuscript with supplement",
+      "topics": [
+        "pseudo-marginal-mcmc",
+        "monte-carlo-efficiency",
+        "likelihood-estimation"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有266次引用，已有至少八年观察期；实际阅读全文后，作为pseudo-marginal-mcmc, monte-carlo-efficiency, likelihood-estimation方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 266,
+        "openalex_work": "https://openalex.org/W2123726866",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2123726866",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2013,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 4
+            }
+          ],
+          "total_citations": 266,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://wrap.warwick.ac.uk/104955/1/WRAP-efficient-Markov-chain-unbiased-likelihood-estimator-Pitt-2015.pdf",
+        "version": "WRAP author-accepted pre-copyedited manuscript, explicitly marked accepted after peer review; 35 PDF pages including cover and supplement; formal publication 2015",
+        "format": "pdf",
+        "sha256": "5ad7c43ec289f700fe90ff952c1374d23ca1ad6466c987b5e75bad9ab1058b34",
+        "pages": 35,
+        "read_scope": "Complete main narrative PDF pp.2–14, all assumptions and bound interpretations, stochastic-volatility analysis; main proof organization pp.14–18 and supplement introduction inspected; supplementary quantitative discussion and numerical implementation pp.27–31 plus all end captions pp.33–35 read. Detailed auxiliary proofs pp.22–26 not read line by line or independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM29.md",
+      "publication": {
+        "volume": "102",
+        "issue": "2",
+        "pages": "295-313"
+      }
+    },
+    {
+      "id": "BIOM30",
+      "title": "Sparse estimation of a covariance matrix",
+      "authors": [
+        "Jacob Bien",
+        "Robert J. Tibshirani"
+      ],
+      "year": 2011,
+      "doi": "10.1093/biomet/asr054",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and computational article; complete published HTML",
+      "topics": [
+        "covariance-estimation",
+        "sparse-matrix-estimation"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有343次引用，已有至少八年观察期；实际阅读全文后，作为covariance-estimation, sparse-matrix-estimation方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 343,
+        "openalex_work": "https://openalex.org/W1995436190",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1995436190",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 15
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 11
+            }
+          ],
+          "total_citations": 343,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3413177/",
+        "version": "NIH/PMC complete author manuscript, linked to Biometrika 2011 DOI; main narrative and three appendices available in HTML",
+        "format": "html",
+        "sha256": "cacfc7f9c85bd65f2f46e36c88bb7556354c6f3ba2d4f6aff51aad187d2ed4f4",
+        "pages": null,
+        "read_scope": "Complete PMC HTML sections 1–6, figures and captions, optimization and algorithm descriptions, both numerical subsections, appendices 1–3; supplementary simulations not obtained. Proof roles and constraints read, not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM30.md",
+      "publication": {
+        "volume": "98",
+        "issue": "4",
+        "pages": "807-820"
+      }
+    },
+    {
+      "id": "BIOM31",
+      "title": "Improving efficiency and robustness of the doubly robust estimator for a population mean with incomplete data",
+      "authors": [
+        "Weihua Cao",
+        "Anastasios A. Tsiatis",
+        "Marie Davidian"
+      ],
+      "year": 2009,
+      "doi": "10.1093/biomet/asp033",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; published PDF read through web extraction",
+      "topics": [
+        "missing-data",
+        "doubly-robust-estimation",
+        "causal-inference"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有302次引用，已有至少八年观察期；实际阅读全文后，作为missing-data, doubly-robust-estimation, causal-inference方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 302,
+        "openalex_work": "https://openalex.org/W2062947384",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2062947384",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 14
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 9
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 5
+            }
+          ],
+          "total_citations": 302,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://academic.oup.com/biomet/article-pdf/96/3/723/38625237/biomet_96_3_723.pdf",
+        "version": "published Biometrika 2009 PDF pp.723–734; full 746-line extraction obtained through web PDF reader, original PDF byte download unavailable",
+        "format": "pdf",
+        "sha256": null,
+        "pages": 12,
+        "read_scope": "All published PDF pages 723–734, complete extracted lines 0–745 preserved: summary, sections 1–6, all method explanations and comparisons, two simulation tables, discussion, misspecification heuristic appendix and references. Original PDF bytes unavailable; hash covers complete extracted UTF-8 text. Algebra not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification.",
+        "extracted_text_sha256": "756fcbd7b14194267bc6aa3eb2b843028c8d0315fdda26920b3d67f0dc8e57de",
+        "hash_scope": "extracted_text",
+        "acquisition": "web_pdf",
+        "original_pdf_downloaded": false
+      },
+      "note": "papers/BIOM31.md",
+      "publication": {
+        "volume": "96",
+        "issue": "3",
+        "pages": "723-734"
+      }
+    },
+    {
+      "id": "BIOM32",
+      "title": "Improving point and interval estimators of monotone functions by rearrangement",
+      "authors": [
+        "Victor Chernozhukov",
+        "Iván Fernández-Val",
+        "Alfred Galichon"
+      ],
+      "year": 2009,
+      "doi": "10.1093/biomet/asp030",
+      "journal": "Biometrika",
+      "article_type": "regular theoretical and methodological article; author manuscript",
+      "topics": [
+        "shape-constrained-inference",
+        "rearrangement",
+        "confidence-bands"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有204次引用，已有至少八年观察期；实际阅读全文后，作为shape-constrained-inference, rearrangement, confidence-bands方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 204,
+        "openalex_work": "https://openalex.org/W2164952673",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2164952673",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 15
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 14
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 6
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 2
+            }
+          ],
+          "total_citations": 204,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/0806.4730",
+        "version": "arXiv:0806.4730v3, 2008-11-07; 24-page author version corresponding to 2009 Biometrika publication",
+        "format": "pdf",
+        "sha256": "667a1af606d9275d0a84ba4957fd7502ba9183d9e7256ebe9716aa36a352f8ca",
+        "pages": 24,
+        "read_scope": "Complete main narrative pp.1–18, univariate/multivariate propositions and interpretations, confidence-band argument, growth-chart application and simulation; proof organization pp.18–22 and full simulation design pp.22–23; references inspected. Inequalities not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM32.md",
+      "publication": {
+        "volume": "96",
+        "issue": "3",
+        "pages": "559-575"
+      }
+    },
+    {
+      "id": "BIOM33",
+      "title": "A consistent multivariate test of association based on ranks of distances",
+      "authors": [
+        "Ruth Heller",
+        "Yair Heller",
+        "Malka Gorfine"
+      ],
+      "year": 2013,
+      "doi": "10.1093/biomet/ass070",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; author version with supplement",
+      "topics": [
+        "nonparametric-testing",
+        "multivariate-independence",
+        "distance-ranks"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有244次引用，已有至少八年观察期；实际阅读全文后，作为nonparametric-testing, multivariate-independence, distance-ranks方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 244,
+        "openalex_work": "https://openalex.org/W2166121267",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2166121267",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2013,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 14
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 16
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 13
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 16
+            }
+          ],
+          "total_citations": 244,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1201.3522",
+        "version": "arXiv:1201.3522v3, 2012-05-31; formally published in Biometrika volume 100, 2013; PDF includes supplement",
+        "format": "pdf",
+        "sha256": "9afb84a48791c8be95635d6835c06982ee15d0244097384fabd8f6df7e059602",
+        "pages": 20,
+        "read_scope": "Complete main narrative pp.1–8, theorem cases and computational explanation, all simulations and HapMap example; main proof narrative pp.8–11, supplementary cases, inversion-count algorithm explanation and additional simulations/application pp.12–19. C code inspected for role, not executed or independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM33.md",
+      "publication": {
+        "volume": "100",
+        "issue": "2",
+        "pages": "503-510"
+      }
+    },
+    {
+      "id": "BIOM34",
+      "title": "Reduced rank regression via adaptive nuclear norm penalization",
+      "authors": [
+        "Kun Chen",
+        "Hongbo Dong",
+        "Kung-Sik Chan"
+      ],
+      "year": 2013,
+      "doi": "10.1093/biomet/ast036",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; revised author manuscript",
+      "topics": [
+        "reduced-rank-regression",
+        "matrix-regularization",
+        "adaptive-nuclear-norm"
+      ],
+      "selection_reason": "OpenAlex所取2000年后本刊高被引候选中有247次引用，已有至少八年观察期；实际阅读全文后，作为reduced-rank-regression, matrix-regularization, adaptive-nuclear-norm方向及其贡献类型的代表保留。这里实际核验的是引用快照、发表年龄、全文贡献与样本覆盖，未系统核验逐年引用或综述认可，不能据此宣称客观test-of-time排名。",
+      "citation_evidence": {
+        "source": "OpenAlex works API; DOI matched to Crossref and full-text title",
+        "query_date": "2026-10-19",
+        "count": 247,
+        "openalex_work": "https://openalex.org/W2081297271",
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2081297271",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 4
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 12
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 12
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 18
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 25
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 22
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 15
+            }
+          ],
+          "total_citations": 247,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1201.0381",
+        "version": "arXiv:1201.0381v2, 2012-09-23, 28 pages; formal journal publication 2013",
+        "format": "pdf",
+        "sha256": "2639ae0c34726b2e654c0463d904ef5f7d307e39a5d6c1de4a6087e36462b2f9",
+        "pages": 28,
+        "read_scope": "Complete main narrative pp.1–19, matrix approximation and convexity/closed-form results, regression construction, rank and risk bounds, ridge extension, both simulation designs and genomics application, discussion; appendix proof narrative pp.19–24 and references inspected without independent algebra checking.",
+        "read_at": "2026-10-19",
+        "status": "read",
+        "scope_note": "Full main narrative read; mathematical displays consulted as needed; no independent proof verification."
+      },
+      "note": "papers/BIOM34.md",
+      "publication": {
+        "volume": "100",
+        "issue": "4",
+        "pages": "901-920"
+      }
+    }
+  ]
+}

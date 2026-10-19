@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "journal": "Biometrika",
+  "journal_id": "biometrika",
+  "checked_at": "2026-10-19",
+  "status": "complete",
+  "purpose": "recent calibration, separate from classic core",
+  "papers": [
+    {
+      "id": "BIOM-C01",
+      "title": "Bayesian cumulative shrinkage for infinite factorizations",
+      "authors": [
+        "Sirio Legramanti",
+        "Daniele Durante",
+        "David B Dunson"
+      ],
+      "year": 2020,
+      "doi": "10.1093/biomet/asaa008",
+      "journal": "Biometrika",
+      "article_type": "methodological contribution; short main article, final issue category not established from author PDF",
+      "topics": [
+        "bayesian-factor-models",
+        "increasing-shrinkage"
+      ],
+      "selection_reason": "近期方向样本，用于校准核心经典库的术语与叙述安排；不占核心25篇，不声称已通过长期检验。",
+      "citation_evidence": {
+        "source": "OpenAlex via DOI lookup",
+        "query_date": "2026-10-19",
+        "count": 66
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1902.04349",
+        "version": "arXiv:1902.04349v3, 2020-09-10, ten-page author version; formal journal paper published 2020",
+        "format": "pdf",
+        "sha256": "674e403d61063380ba5ad86749210cd80ffce8979c2ca865bc4ef83ba038f31b",
+        "pages": 10,
+        "read_scope": "Complete ten-page PDF narrative, definition, propositions and theorem interpretations, both Gibbs algorithms, sensitivity and personality-data example, appendix proof organization and references; algebra not independently verified.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "publication": {
+        "volume": "107",
+        "issue": "3",
+        "pages": "745-752"
+      },
+      "note": "papers/BIOM-C01.md"
+    },
+    {
+      "id": "BIOM-C02",
+      "title": "Flexible control of the median of the false discovery proportion",
+      "authors": [
+        "Jesse Hemerik",
+        "Aldo Solari",
+        "Jelle J Goeman"
+      ],
+      "year": 2024,
+      "doi": "10.1093/biomet/asae018",
+      "journal": "Biometrika",
+      "article_type": "regular methodological and theoretical article; revised author version with supplement",
+      "topics": [
+        "multiple-testing",
+        "simultaneous-fdp-inference"
+      ],
+      "selection_reason": "近期方向样本，用于校准核心经典库的术语与叙述安排；不占核心25篇，不声称已通过长期检验。",
+      "citation_evidence": {
+        "source": "OpenAlex via DOI lookup",
+        "query_date": "2026-10-19",
+        "count": 1
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/2208.11570",
+        "version": "arXiv:2208.11570v4, 2024-03-13, 37-page author PDF including supplement; formal 2024 Biometrika volume 111(4), pp.1129–1150",
+        "format": "pdf",
+        "sha256": "94b5dfdd76d8682dc401666bd66aa990fa17f2fdea6dce131ec860bed93b10b8",
+        "pages": 37,
+        "read_scope": "Complete main narrative PDF pp.1–21, all main definition/assumption/theorem interpretations, running examples, algorithm explanation and simulations; supplementary general-estimator discussion pp.33–37 additionally read. Supplementary detailed proofs and RNA-seq application not fully read or counted.",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "publication": {
+        "volume": "111",
+        "issue": "4",
+        "pages": "1129-1150"
+      },
+      "note": "papers/BIOM-C02.md"
+    }
+  ]
+}

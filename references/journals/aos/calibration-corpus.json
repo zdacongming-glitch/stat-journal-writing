@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "journal_id": "aos",
+  "journal": "The Annals of Statistics",
+  "checked_at": "2026-10-19",
+  "purpose": "两篇2020年以来样本校准；与25篇经典核心分开，样本不足以证明全刊风格发生变化。",
+  "papers": [
+    {
+      "title": "Predictive inference with the jackknife+",
+      "authors": [
+        "Rina Foygel Barber",
+        "Emmanuel J. Candès",
+        "Aaditya Ramdas",
+        "Ryan J. Tibshirani"
+      ],
+      "year": 2021,
+      "doi": "10.1214/20-aos1965",
+      "journal": "The Annals of Statistics",
+      "volume": "49",
+      "issue": "1",
+      "pages": "486-507",
+      "id": "AOS-C01",
+      "article_type": "原创方法与理论论文",
+      "topics": [
+        "predictive-inference",
+        "conformal-prediction"
+      ],
+      "selection_reason": "针对预测推断近期方法论文，校准关键计算差别、覆盖保证与数值机制的连接；不计入经典排名。",
+      "citation_evidence": {
+        "source": "Crossref works API",
+        "query_date": "2026-10-19",
+        "count": 318,
+        "role": "近期校准背景指标，非test-of-time证据"
+      },
+      "full_text": {
+        "url": "https://www.stat.cmu.edu/~ryantibs/papers/jackknife.pdf",
+        "version": "作者托管公开稿，44页含附录；不作正式排版证据",
+        "format": "pdf",
+        "sha256": "feccf581d4d181744acae7d704e4bc7192896370f6474334d451ffed7ff1816a",
+        "pages": 44,
+        "status": "read",
+        "read_at": "2026-10-19",
+        "read_scope": "§1–8全部主文叙述pp.1–27；附录A和B的叙述及证明组织pp.30–44，未逐行验算推导"
+      },
+      "note": "papers/AOS-C01.md"
+    },
+    {
+      "title": "Nonparametric regression using deep neural networks with ReLU activation function",
+      "authors": [
+        "Johannes Schmidt-Hieber"
+      ],
+      "year": 2020,
+      "doi": "10.1214/19-aos1875",
+      "journal": "The Annals of Statistics",
+      "volume": "48",
+      "issue": "4",
+      "pages": "1875-1897",
+      "id": "AOS-C02",
+      "article_type": "原创理论论文（讨论论文主文；合并文件另含rejoinder及补充材料）",
+      "topics": [
+        "nonparametric-regression",
+        "deep-learning-theory"
+      ],
+      "selection_reason": "针对现代统计学习理论校准：建模选择、主结果、特例和比较下界如何构成论证；不计入经典排名。",
+      "citation_evidence": {
+        "source": "Crossref works API",
+        "query_date": "2026-10-19",
+        "count": 249,
+        "role": "近期校准背景指标，非test-of-time证据"
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1708.06633",
+        "version": "arXiv v5 2020-09-13合并稿，非正式主文单独排版",
+        "format": "pdf",
+        "sha256": "0de542f90062732ff8c783c1165e4c44fb7fbdf0fe65c1a52221cb29f798f9f2",
+        "pages": 57,
+        "status": "read",
+        "read_at": "2026-10-19",
+        "read_scope": "主文§1–6完整叙述pp.1–21；§7证明组织pp.21–30；rejoinder pp.31–37叙述；补充材料pp.38–52的解释与组织，未逐行验算推导"
+      },
+      "note": "papers/AOS-C02.md"
+    }
+  ]
+}

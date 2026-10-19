@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "journal": "JRSS Series B",
+  "journal_id": "jrss-b",
+  "checked_at": "2026-10-19",
+  "purpose": "2020–2025 recent calibration, distinct from the 25 classic core; not claimed to be test-of-time evidence",
+  "calibration_target": 2,
+  "status": "complete",
+  "progress": {
+    "selected": 2,
+    "retrieved": 2,
+    "read": 2
+  },
+  "papers": [
+    {
+      "id": "JRSSB-C01",
+      "title": "Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models",
+      "authors": [
+        "Daniel W. Apley",
+        "Jingyu Zhu"
+      ],
+      "year": 2020,
+      "doi": "10.1111/rssb.12377",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "82",
+      "issue": "4",
+      "pages": "1059-1086",
+      "article_type": "original-methodology",
+      "topics": [
+        "interpretable-prediction"
+      ],
+      "selection_reason": "Selected to calibrate recent exposition of a diagnostic method and correlated predictors.",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint; same saved candidate response as core corpus",
+        "query_date": "2026-10-19",
+        "count": 1398
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1612.08468",
+        "version": "arXiv author manuscript v2, 19 August 2019, matched to formal 2020 journal DOI",
+        "format": "pdf",
+        "sha256": "7639cd1d63e4dd359597faff8a8c4b9e396b3851e52baf1dc886e76a1f59139a",
+        "pages": 44,
+        "read_scope": "Abstract and main sections 1–6, PDF pp.1–21; implementation Appendix E, PDF pp.40–44, read; theorem statements and explanation read, proofs not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB-C01.md"
+    },
+    {
+      "id": "JRSSB-C02",
+      "title": "Making Sense of Sensitivity: Extending Omitted Variable Bias",
+      "authors": [
+        "Carlos Cinelli",
+        "Chad Hazlett"
+      ],
+      "year": 2020,
+      "doi": "10.1111/rssb.12348",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "volume": "82",
+      "issue": "1",
+      "pages": "39-67",
+      "article_type": "original-methodology",
+      "topics": [
+        "causal-sensitivity-analysis"
+      ],
+      "selection_reason": "Selected to calibrate recent exposition of sensitivity parameters, reporting, and a sustained application.",
+      "citation_evidence": {
+        "source": "Crossref journal works endpoint; same saved candidate response as core corpus",
+        "query_date": "2026-10-19",
+        "count": 1041
+      },
+      "full_text": {
+        "url": "https://carloscinelli.com/files/Cinelli%20and%20Hazlett%20%282020%29%20-%20Making%20Sense%20of%20Sensitivity.pdf",
+        "version": "complete author manuscript marked forthcoming in JRSS Series B, 2020, with formal DOI; supplementary material included",
+        "format": "pdf",
+        "sha256": "6b31f4da92c158421ddc06355516e1cd53d6b58e51ba8f018808ffdd9abf8293",
+        "pages": 41,
+        "read_scope": "Abstract and main sections 1–6, PDF pp.1–27; supplementary derivations not independently verified",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JRSSB-C02.md"
+    }
+  ]
+}

@@ -1,0 +1,4305 @@
+{
+  "schema_version": 1,
+  "journal": "JASA",
+  "journal_id": "jasa",
+  "checked_at": "2026-10-19",
+  "core_target": 25,
+  "selection_policy": "从2000年至今正式发表的原始贡献中，以OpenAlex高引池发现候选，剔除书评、综述和附随讨论，兼顾主题/作者/栏目并优先已有较长影响积累的作品。经典性依据实际核验范围与获取偏差见selection-audit.md；不宣称唯一客观前25或已系统查遍后续综述。",
+  "selection_audit": "selection-audit.md",
+  "candidate_pool": {
+    "source": "OpenAlex",
+    "source_id": "https://openalex.org/S4394736638",
+    "rows": 150,
+    "retrieved_at": "2026-10-19",
+    "order": "cited_by_count descending",
+    "eligibility_window": "2000-01-01 through 2026-10-19",
+    "raw_response": "kept in private research cache; not distributed with skill"
+  },
+  "status": {
+    "retrieved": 25,
+    "read": 25,
+    "notes": 25
+  },
+  "papers": [
+    {
+      "id": "JASA01",
+      "title": "Variable Selection via Nonconcave Penalized Likelihood and its Oracle Properties",
+      "authors": [
+        "Jianqing Fan",
+        "Runze Li"
+      ],
+      "year": 2001,
+      "doi": "10.1198/016214501753382273",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "regularization",
+        "variable-selection"
+      ],
+      "selection_reason": "OpenAlex当日被引8907次，正式发表至少八年。覆盖非凹惩罚、oracle性质和选择准则驱动的方法构造；与后续自适应惩罚作并读。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2074682976",
+        "query_date": "2026-10-19",
+        "count": 8907,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 389
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 603
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 572
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 558
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 612
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 668
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 629
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 629
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 567
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 577
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 500
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 497
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 467
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 415
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 355
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2074682976",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 355
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 415
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 467
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 497
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 500
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 577
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 567
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 629
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 629
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 668
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 612
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 558
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 572
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 603
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 389
+            }
+          ],
+          "total_citations": 8907,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://fan.princeton.edu/sites/g/files/toruqf5476/files/documents/penlike.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "a272b43fd56175da5443eeb840f756678f81d6aa1b9a62e88363491237eeaac2",
+        "pages": 13,
+        "read_scope": "已阅读全文叙述：正式版pp.1348–1358（§1–5）；查看附录条件位置，证明未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA01.md",
+      "volume": "96",
+      "issue": "456",
+      "pages": "1348-1360",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214501753382273",
+        "https://openalex.org/W2074682976"
+      ]
+    },
+    {
+      "id": "JASA02",
+      "title": "The Adaptive Lasso and Its Oracle Properties",
+      "authors": [
+        "Hui Zou"
+      ],
+      "year": 2006,
+      "doi": "10.1198/016214506000000735",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "regularization",
+        "variable-selection"
+      ],
+      "selection_reason": "OpenAlex当日被引7463次，正式发表至少八年。覆盖adaptive lasso及其相对普通lasso的必要修正；展示失败条件如何引出新方法。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2020925091",
+        "query_date": "2026-10-19",
+        "count": 7463,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 309
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 477
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 474
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 454
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 567
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 639
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 529
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 547
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 475
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 444
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 416
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 388
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 385
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 361
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 304
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2020925091",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 304
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 361
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 385
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 388
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 416
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 444
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 475
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 547
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 529
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 639
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 567
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 454
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 474
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 477
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 309
+            }
+          ],
+          "total_citations": 7463,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pages.cs.wisc.edu/~shao/stat992/zou2006.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "1f23df1fb0dff1f062299edca08a709e9c421727c8b44af596055a9c87fec75a",
+        "pages": 12,
+        "read_scope": "已阅读全文叙述：正式版pp.1418–1425（§1–5），并查看附录安排；附录证明未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA02.md",
+      "volume": "101",
+      "issue": "476",
+      "pages": "1418-1429",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214506000000735",
+        "https://openalex.org/W2020925091"
+      ]
+    },
+    {
+      "id": "JASA03",
+      "title": "Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program",
+      "authors": [
+        "Alberto Abadie",
+        "Alexis Diamond",
+        "Jens Hainmueller"
+      ],
+      "year": 2010,
+      "doi": "10.1198/jasa.2009.ap08746",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "causal-inference",
+        "comparative-case-studies"
+      ],
+      "selection_reason": "OpenAlex当日被引5486次，正式发表至少八年。覆盖synthetic control的政策案例、识别论证与placebo证据，补充JASA ACS因果研究。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W3125057276",
+        "query_date": "2026-10-19",
+        "count": 5486,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 549
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 619
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 557
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 521
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 575
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 587
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 454
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 312
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 324
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 275
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 193
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 165
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 138
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 79
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 48
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W3125057276",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 138
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 165
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 193
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 275
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 324
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 312
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 454
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 587
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 575
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 521
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 557
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 619
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 549
+            }
+          ],
+          "total_citations": 5486,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.mit.edu/~jhainm/Paper/ccs.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "899dd55ab6e5d093e1cf0efbbd6493f824e36935880006a55fa4d10d27393169",
+        "pages": 13,
+        "read_scope": "已阅读全文叙述：正式版pp.493–503（§1–4）；数据来源附录A和技术附录B仅查看组织，未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA03.md",
+      "volume": "105",
+      "issue": "490",
+      "pages": "493-505",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/jasa.2009.ap08746",
+        "https://openalex.org/W3125057276"
+      ]
+    },
+    {
+      "id": "JASA04",
+      "title": "Hierarchical Dirichlet Processes",
+      "authors": [
+        "Yee Whye Teh",
+        "Michael I Jordan",
+        "Matthew J Beal",
+        "David M Blei"
+      ],
+      "year": 2006,
+      "doi": "10.1198/016214506000000302",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "bayesian-nonparametrics",
+        "mixture-models"
+      ],
+      "selection_reason": "OpenAlex当日被引3475次，正式发表至少八年。覆盖层次贝叶斯非参数与共享原子构造；展示多种等价表示如何服务后验计算。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2158266063",
+        "query_date": "2026-10-19",
+        "count": 3475,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 79
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 79
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 75
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 110
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 123
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 171
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 132
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 161
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 201
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 247
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 308
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 301
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 290
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 257
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 258
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2158266063",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 258
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 257
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 290
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 301
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 308
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 247
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 201
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 161
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 132
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 171
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 123
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 110
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 79
+            }
+          ],
+          "total_citations": 3475,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stats.ox.ac.uk/~teh/research/npbayes/jasa2006.pdf",
+        "version": "Author manuscript dated 2005-12-15, 41 PDF pages; JASA publication 2006; not publisher pagination",
+        "format": "pdf",
+        "sha256": "eb6413a51c71e9b4ce4dea6afa81ac84d3c94e8c9d8ca9cbb2a39cead3c1cc72",
+        "pages": 41,
+        "read_scope": "已阅读公开作者稿全文叙述：PDF pp.2–32（§1–8），图示说明pp.38–41；附录浓度参数采样推导未逐行验算。正式发表2006，作者稿页码不同于排版页码。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA04.md",
+      "volume": "101",
+      "issue": "476",
+      "pages": "1566-1581",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214506000000302",
+        "https://openalex.org/W2158266063"
+      ]
+    },
+    {
+      "id": "JASA05",
+      "title": "Forecasting Using Principal Components From a Large Number of Predictors",
+      "authors": [
+        "James H Stock",
+        "Mark W Watson"
+      ],
+      "year": 2002,
+      "doi": "10.1198/016214502388618960",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "time-series",
+        "factor-models",
+        "forecasting"
+      ],
+      "selection_reason": "OpenAlex当日被引2985次，正式发表至少八年。覆盖大量预测变量的主成分预测和因子渐近理论，避免高维库仅由稀疏回归组成。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2079563517",
+        "query_date": "2026-10-19",
+        "count": 2985,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 126
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 191
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 138
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 135
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 149
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 165
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 168
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 188
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 163
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 202
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 183
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 204
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 143
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 144
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 130
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2079563517",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 130
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 144
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 143
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 204
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 183
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 202
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 163
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 188
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 168
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 165
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 149
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 135
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 138
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 191
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 126
+            }
+          ],
+          "total_citations": 2985,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.princeton.edu/~mwatson/papers/Stock_Watson_JASA_2002.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "3cbc87f30bb6e4ede521e793bdfd53f2ded08672b2656e4d111ddc7d7fd91d8b",
+        "pages": 15,
+        "read_scope": "已阅读全文叙述：正式版pp.1167–1174（§1–6）；附录pp.1174–1179仅查看结构，未逐行验算。PDF后两页为JSTOR链接记录。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA05.md",
+      "volume": "97",
+      "issue": "460",
+      "pages": "1167-1179",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214502388618960",
+        "https://openalex.org/W2079563517"
+      ]
+    },
+    {
+      "id": "JASA06",
+      "title": "The Bayesian Lasso",
+      "authors": [
+        "Trevor Park",
+        "George Casella"
+      ],
+      "year": 2008,
+      "doi": "10.1198/016214508000000337",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "bayesian-computation",
+        "regularization"
+      ],
+      "selection_reason": "OpenAlex当日被引2935次，正式发表至少八年。覆盖Bayesian lasso的层次表示与简短计算方法稿，提供长理论稿以外的篇章尺度。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1982652137",
+        "query_date": "2026-10-19",
+        "count": 2935,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 136
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 158
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 173
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 183
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 223
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 249
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 203
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 243
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 191
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 188
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 167
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 166
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 153
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 144
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 142
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1982652137",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 142
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 144
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 153
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 166
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 167
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 188
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 191
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 243
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 203
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 249
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 223
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 183
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 173
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 158
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 136
+            }
+          ],
+          "total_citations": 2935,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://people.eecs.berkeley.edu/~jordan/sail/readings/park-casella.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "b2394394cd1a644ae03fb985dea1bbd99e04fc56f152750b1ea50892529f74b7",
+        "pages": 6,
+        "read_scope": "已阅读全文叙述及附录的解释性文字：正式版pp.681–686（§1–5、Appendices A–C）；公式推导未逐行核算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA06.md",
+      "volume": "103",
+      "issue": "482",
+      "pages": "681-686",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214508000000337",
+        "https://openalex.org/W1982652137"
+      ]
+    },
+    {
+      "id": "JASA07",
+      "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+      "authors": [
+        "Stefan Wager",
+        "Susan Athey"
+      ],
+      "year": 2018,
+      "doi": "10.1080/01621459.2017.1319839",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "causal inference",
+        "random forests"
+      ],
+      "selection_reason": "OpenAlex当日被引2892次，正式发表至少八年。覆盖causal forest及honest forest推断，把因果目标与通用算法渐近理论相连。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2208550830",
+        "query_date": "2026-10-19",
+        "count": 2892,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 462
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 490
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 398
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 328
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 298
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 325
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 254
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 191
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 104
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 30
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 1
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2208550830",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2014,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 11
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 104
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 191
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 254
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 325
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 298
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 328
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 398
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 490
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 462
+            }
+          ],
+          "total_citations": 2892,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1510.04342",
+        "version": "arXiv:1510.04342v4, 2017-07-10; 48 PDF pages with supplement; JASA print 2018",
+        "format": "pdf",
+        "sha256": "4ce3bc946f2f3aae9f0d2a485e5f6632b7e5cfd94639f4b50edd6347bb219e6a",
+        "pages": 48,
+        "read_scope": "已阅读arXiv:1510.04342v4（2017-07-10）pp.1–24摘要及§§1–6全部主体叙述、算法、理论框架与图表；PDF p.23损坏提取另用Windows OCR复读。pp.29–48补充模拟及证明未列为已完整精读，未逐行验证证明。正式期刊年份为2018。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA07.md",
+      "volume": "113",
+      "issue": "523",
+      "pages": "1228-1242",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1080/01621459.2017.1319839",
+        "https://openalex.org/W2208550830"
+      ]
+    },
+    {
+      "id": "JASA08",
+      "title": "Comparison of Discrimination Methods for the Classification of Tumors Using Gene Expression Data",
+      "authors": [
+        "Sandrine Dudoit",
+        "Jane Fridlyand",
+        "Terence P Speed"
+      ],
+      "year": 2002,
+      "doi": "10.1198/016214502753479248",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "classification",
+        "genomics",
+        "comparative-evaluation"
+      ],
+      "selection_reason": "OpenAlex当日被引2672次，正式发表至少八年。覆盖微阵列肿瘤分类的比较性原始研究及数据标准化和误差评价，补充ACS基准设计。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1966701961",
+        "query_date": "2026-10-19",
+        "count": 2672,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 13
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 30
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 41
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 63
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 65
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 90
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 106
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 85
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 80
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 120
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 136
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 164
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 146
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1966701961",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 146
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 164
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 136
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 120
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 106
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 66
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 65
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 17
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 13
+            }
+          ],
+          "total_citations": 2672,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stat.rice.edu/~cscott/stat699/dudoit.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "316598c6de6b4882171f7169e47858fba2ecd8fcdc588f4a178d0ed4744b3a6a",
+        "pages": 11,
+        "read_scope": "已阅读全文叙述：正式版pp.77–86（§1–6）；参考文献及在线补充未作为已读材料。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA08.md",
+      "volume": "97",
+      "issue": "457",
+      "pages": "77-87",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214502753479248",
+        "https://openalex.org/W1966701961"
+      ]
+    },
+    {
+      "id": "JASA09",
+      "title": "Optimal Detection of Changepoints With a Linear Computational Cost",
+      "authors": [
+        "R. Killick",
+        "P. Fearnhead",
+        "I. A. Eckley"
+      ],
+      "year": 2012,
+      "doi": "10.1080/01621459.2012.737745",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "changepoint-detection",
+        "computational-statistics",
+        "time-series"
+      ],
+      "selection_reason": "OpenAlex当日被引2561次，正式发表至少八年。覆盖PELT的精确分段和有条件线性复杂度，连接算法正确性、效率理论和数值证据。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1975684011",
+        "query_date": "2026-10-19",
+        "count": 2561,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 373
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 307
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 271
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 249
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 239
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 299
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 241
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 161
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 132
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 92
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 61
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 44
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 27
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 8
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1975684011",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 8
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 132
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 161
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 241
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 299
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 239
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 249
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 271
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 307
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 373
+            }
+          ],
+          "total_citations": 2561,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1101.1438",
+        "version": "arXiv:1101.1438v3, stamp 2012-10-09; PDF generated with a 2024-11-26 title date, not a new journal year; 25 pages",
+        "format": "pdf",
+        "sha256": "07b03d783fa275c7b345679099010d9a5ccd8eca0bae91953cc0399bacc3084e",
+        "pages": 25,
+        "read_scope": "已阅读全文叙述：arXiv v3公开作者稿PDF pp.1–22（§1–5）；证明位于独立补充材料，未计作已验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA09.md",
+      "volume": "107",
+      "issue": "500",
+      "pages": "1590-1598",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1080/01621459.2012.737745",
+        "https://openalex.org/W1975684011"
+      ]
+    },
+    {
+      "id": "JASA10",
+      "title": "The Distribution of Realized Exchange Rate Volatility",
+      "authors": [
+        "Torben G Andersen",
+        "Tim Bollerslev",
+        "Francis X Diebold",
+        "Paul Labys"
+      ],
+      "year": 2001,
+      "doi": "10.1198/016214501750332965",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "financial econometrics",
+        "realized volatility"
+      ],
+      "selection_reason": "OpenAlex当日被引2104次，正式发表至少八年。覆盖realized volatility的测量与经验分布，补充ACS金融时间序列研究。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W3125412410",
+        "query_date": "2026-10-19",
+        "count": 2104,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 38
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 79
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 72
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 96
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 90
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 83
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 84
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 95
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 113
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 107
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 96
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 92
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W3125412410",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 96
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 107
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 113
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 95
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 84
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 83
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 96
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 66
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 72
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 38
+            }
+          ],
+          "total_citations": 2104,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://public.econ.duke.edu/~boller/Published_Papers/jasa_01.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "19bf21b8ccdc1404124b676e7106f5699b4baa8bb2e36f5b38d9f5acea043186",
+        "pages": 14,
+        "read_scope": "已阅读正式排版pp.42–54摘要及§§1–7全部主体叙述、表图说明；p.55为参考文献。未逐行独立验证半鞅推导。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA10.md",
+      "volume": "96",
+      "issue": "453",
+      "pages": "42-55",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214501750332965",
+        "https://openalex.org/W3125412410"
+      ]
+    },
+    {
+      "id": "JASA11",
+      "title": "Latent Space Approaches to Social Network Analysis",
+      "authors": [
+        "Peter D Hoff",
+        "Adrian E Raftery",
+        "Mark S Handcock"
+      ],
+      "year": 2002,
+      "doi": "10.1198/016214502388618906",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "network-models",
+        "latent-variable-models"
+      ],
+      "selection_reason": "OpenAlex当日被引1913次，正式发表至少八年。覆盖社会网络latent-space建模、似然计算和实质可视化，区别于随机块模型。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2066459332",
+        "query_date": "2026-10-19",
+        "count": 1913,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 65
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 110
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 115
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 100
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 134
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 146
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 161
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 142
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 135
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 97
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 98
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 98
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 82
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 70
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2066459332",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 70
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 135
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 142
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 161
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 146
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 134
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 115
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 97
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 110
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 65
+            }
+          ],
+          "total_citations": 1913,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://handcock.github.io/publication/latent-space/hoffrafteryhandcock2002.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note; includes JSTOR cover sheet",
+        "format": "pdf",
+        "sha256": "16f638a2ec21217e535c69639f572d18837d99573500f32ff9c35d0ae64abeba",
+        "pages": 10,
+        "read_scope": "已阅读全文叙述：正式版pp.1090–1097（§1–5），参考文献未逐项追溯；PDF含一页JSTOR封面，正文始于PDF p.2。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA11.md",
+      "volume": "97",
+      "issue": "460",
+      "pages": "1090-1098",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214502388618906",
+        "https://openalex.org/W2066459332"
+      ]
+    },
+    {
+      "id": "JASA12",
+      "title": "Empirical Bayes Analysis of a Microarray Experiment",
+      "authors": [
+        "Bradley Efron",
+        "Robert Tibshirani",
+        "John D Storey",
+        "Virginia Tusher"
+      ],
+      "year": 2001,
+      "doi": "10.1198/016214501753382129",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "empirical-bayes",
+        "multiple-testing",
+        "genomics"
+      ],
+      "selection_reason": "OpenAlex当日被引1734次，正式发表至少八年。覆盖local false discovery rate和微阵列的empirical Bayes分析，展示应用驱动的推断目标。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2074089196",
+        "query_date": "2026-10-19",
+        "count": 1734,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 16
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 34
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 39
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 46
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 73
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 43
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 61
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 55
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 47
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 82
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 113
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2074089196",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 113
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 74
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 66
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 47
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 61
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 73
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 16
+            }
+          ],
+          "total_citations": 1734,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://genomics.princeton.edu/storeylab/papers/ETST_JASA_2001.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "3b66ac9cfeec075763408996d647c713712c70442e81bc7231ae2990b4d71c54",
+        "pages": 10,
+        "read_scope": "已阅读全文叙述：正式版pp.1151–1160（§1–6，含A–F实际分析备注）；未复核原生物实验或重新跑数值。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA12.md",
+      "volume": "96",
+      "issue": "456",
+      "pages": "1151-1160",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214501753382129",
+        "https://openalex.org/W2074089196"
+      ]
+    },
+    {
+      "id": "JASA13",
+      "title": "Functional Data Analysis for Sparse Longitudinal Data",
+      "authors": [
+        "Fang Yao",
+        "Hans-Georg Müller",
+        "Jane-Ling Wang"
+      ],
+      "year": 2005,
+      "doi": "10.1198/016214504000001745",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "functional data",
+        "sparse longitudinal data"
+      ],
+      "selection_reason": "OpenAlex当日被引1586次，正式发表至少八年。覆盖PACE在稀疏纵向功能数据中的条件预测，补充连续曲线对象与数据稀疏性的叙述。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2144148350",
+        "query_date": "2026-10-19",
+        "count": 1586,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 94
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 116
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 134
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 109
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 136
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 142
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 114
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 93
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 101
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 59
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 52
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 63
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 43
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2144148350",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 63
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 101
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 93
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 114
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 142
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 136
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 109
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 134
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 116
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 94
+            }
+          ],
+          "total_citations": 1586,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://utstat.utoronto.ca/fyao/2005-jasa.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "a5145ae5f1dcfbc71aaad3e91fd98da48f853c3a8d97f7646eb2dc9ab6491f1e",
+        "pages": 14,
+        "read_scope": "已阅读正式排版pp.577–586的摘要及§§1–6全部叙述、图表说明；附录pp.586–590未逐行验算证明。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA13.md",
+      "volume": "100",
+      "issue": "470",
+      "pages": "577-590",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214504000001745",
+        "https://openalex.org/W2144148350"
+      ]
+    },
+    {
+      "id": "JASA14",
+      "title": "Gibbs Sampling Methods for Stick-Breaking Priors",
+      "authors": [
+        "Hemant Ishwaran",
+        "Lancelot F James"
+      ],
+      "year": 2001,
+      "doi": "10.1198/016214501750332758",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "Bayesian nonparametrics",
+        "Monte Carlo computation"
+      ],
+      "selection_reason": "OpenAlex当日被引1515次，正式发表至少八年。覆盖一般stick-breaking先验的blocked Gibbs计算，补充贝叶斯非参数算法比较。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2072169887",
+        "query_date": "2026-10-19",
+        "count": 1515,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 37
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 46
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 59
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 91
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 98
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 104
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 115
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 94
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 90
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2072169887",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 90
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 115
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 104
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 66
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 46
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 37
+            }
+          ],
+          "total_citations": 1515,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://people.eecs.berkeley.edu/~jordan/sail/readings/archive/ishwaran-stickBreaking.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "d29650c5e57463dce77b2c07d27d9f3ab5bd2bc8a9e489dae8ee42a44583d750",
+        "pages": 13,
+        "read_scope": "已阅读正式排版pp.161–170摘要及§§1–6全部主体叙述、表图和算法；附录pp.170–173未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA14.md",
+      "volume": "96",
+      "issue": "453",
+      "pages": "161-173",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214501750332758",
+        "https://openalex.org/W2072169887"
+      ]
+    },
+    {
+      "id": "JASA15",
+      "title": "Spatially Balanced Sampling of Natural Resources",
+      "authors": [
+        "Don L Stevens",
+        "Anthony R Olsen"
+      ],
+      "year": 2004,
+      "doi": "10.1198/016214504000000250",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "survey sampling",
+        "spatially balanced designs"
+      ],
+      "selection_reason": "OpenAlex当日被引1291次，正式发表至少八年。覆盖GRTS空间均衡概率抽样与不完善抽样框，补充调查抽样及现场实施约束。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2080439372",
+        "query_date": "2026-10-19",
+        "count": 1291,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 50
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 83
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 57
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 83
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 94
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 115
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 60
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 78
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 85
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 79
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 70
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 49
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2080439372",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 70
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 79
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 78
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 115
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 83
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 57
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 66
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 83
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 74
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 50
+            }
+          ],
+          "total_citations": 1291,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://archive.epa.gov/nheerl/arm/web/pdf/grts_asa.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "0bce9bf75a0394f215ab5d052149eac1de07880a7a7b5f9bce5495b9eb49a931",
+        "pages": 18,
+        "read_scope": "已阅读18页公开PDF中正式pp.262–276的摘要及§§1–6全部主体叙述、图表、算法与应用；pp.277–278附录证明未逐行核验。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA15.md",
+      "volume": "99",
+      "issue": "465",
+      "pages": "262-278",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214504000000250",
+        "https://openalex.org/W2080439372"
+      ]
+    },
+    {
+      "id": "JASA16",
+      "title": "Estimation and Prediction for Stochastic Blockstructures",
+      "authors": [
+        "Krzysztof Nowicki",
+        "Tom A. B Snijders"
+      ],
+      "year": 2001,
+      "doi": "10.1198/016214501753208735",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "social networks",
+        "stochastic blockmodels"
+      ],
+      "selection_reason": "OpenAlex当日被引1149次，正式发表至少八年。覆盖随机块结构的多值关系和标签不变推断，与latent-space网络模型形成对照。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2144799688",
+        "query_date": "2026-10-19",
+        "count": 1149,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 25
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 56
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 43
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 72
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 81
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 108
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 85
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 75
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 65
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 73
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 55
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 54
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2144799688",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 73
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 65
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 85
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 108
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 72
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 25
+            }
+          ],
+          "total_citations": 1149,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://people.eecs.berkeley.edu/~jordan/sail/readings/nowicki-snijders.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note; includes JSTOR cover sheet",
+        "format": "pdf",
+        "sha256": "fa711497814759c81bb4b07c926a96b2ddb53c72a3be18aab859f90dcb615465",
+        "pages": 12,
+        "read_scope": "已阅读含JSTOR封面的12页公开PDF中正式pp.1077–1087的摘要及§§1–8全部主体叙述、表图和算法说明；未声称独立验证推导。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA16.md",
+      "volume": "96",
+      "issue": "455",
+      "pages": "1077-1087",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214501753208735",
+        "https://openalex.org/W2144799688"
+      ]
+    },
+    {
+      "id": "JASA17",
+      "title": "Convexity, Classification, and Risk Bounds",
+      "authors": [
+        "Peter L Bartlett",
+        "Michael I Jordan",
+        "Jon D McAuliffe"
+      ],
+      "year": 2006,
+      "doi": "10.1198/016214505000000907",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "statistical learning theory",
+        "surrogate loss"
+      ],
+      "selection_reason": "OpenAlex当日被引1041次，正式发表至少八年。覆盖classification calibration、surrogate风险变换和快速速率，补充统计学习理论。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1982032418",
+        "query_date": "2026-10-19",
+        "count": 1041,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 34
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 60
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 60
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 92
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 77
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 56
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 44
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 42
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1982032418",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 45
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 77
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 60
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 34
+            }
+          ],
+          "total_citations": 1041,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://pages.cs.wisc.edu/~jerryzhu/cs761/surrogate.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "de6c50ea007a4df4ada81348d2b9b744e91592ee0bd901d1508a822ddc5ffefa",
+        "pages": 19,
+        "read_scope": "已阅读正式排版pp.138–152摘要及§§1–5全部主体叙述、正文证明的解释段、例子和模拟图；附录A/B pp.152–156未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA17.md",
+      "volume": "101",
+      "issue": "473",
+      "pages": "138-156",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214505000000907",
+        "https://openalex.org/W1982032418"
+      ]
+    },
+    {
+      "id": "JASA18",
+      "title": "Large-Scale Simultaneous Hypothesis Testing",
+      "authors": [
+        "Bradley Efron"
+      ],
+      "year": 2004,
+      "doi": "10.1198/016214504000000089",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "multiple-testing",
+        "empirical-bayes"
+      ],
+      "selection_reason": "OpenAlex当日被引1001次，正式发表至少八年。覆盖大规模检验中经验零分布的选择，补充诊断图驱动的empirical Bayes方法问题。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1824047490",
+        "query_date": "2026-10-19",
+        "count": 1001,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 22
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 23
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 27
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 38
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 55
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 44
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 48
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 52
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 52
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1824047490",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 49
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 44
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 55
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 22
+            }
+          ],
+          "total_citations": 1001,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://stat.cmu.edu/~jiashun/Teaching/F08STAT756/Lectures/Efron.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "bb3eb3848f8c8b7738960d710380905c28ee2d74f29862fb5c0d51acffb147af",
+        "pages": 9,
+        "read_scope": "已阅读全文叙述：正式版pp.96–104（§1–8，含§7各Remark）；单点极值证明未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA18.md",
+      "volume": "99",
+      "issue": "465",
+      "pages": "96-104",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214504000000089",
+        "https://openalex.org/W1824047490"
+      ]
+    },
+    {
+      "id": "JASA19",
+      "title": "A Constrained ℓ 1 Minimization Approach to Sparse Precision Matrix Estimation",
+      "authors": [
+        "Tony Cai",
+        "Weidong Liu",
+        "Xi Luo"
+      ],
+      "year": 2011,
+      "doi": "10.1198/jasa.2011.tm10155",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "high-dimensional inference",
+        "precision matrix estimation"
+      ],
+      "selection_reason": "OpenAlex当日被引975次，正式发表至少八年。覆盖CLIME稀疏精度矩阵估计、支持恢复和线性规划，补充高维图结构推断。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1989727964",
+        "query_date": "2026-10-19",
+        "count": 975,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 62
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 59
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 100
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 84
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 93
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 81
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 68
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 76
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 69
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 56
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 29
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1989727964",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 69
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 76
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 68
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 93
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 84
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 100
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 59
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 62
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 45
+            }
+          ],
+          "total_citations": 975,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1102.2233",
+        "version": "arXiv:1102.2233v1, 2011-02-10; 41 PDF pages",
+        "format": "pdf",
+        "sha256": "32c1984fb425daec3a32a0677b73f7be579497a95d93cf78d2292bfff892ae63",
+        "pages": 41,
+        "read_scope": "已阅读arXiv:1102.2233v1的pp.1–31摘要及§§1–6全部主体叙述、表图和算法；§7证明及其后内容未逐行验算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA19.md",
+      "volume": "106",
+      "issue": "494",
+      "pages": "594-607",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/jasa.2011.tm10155",
+        "https://openalex.org/W1989727964"
+      ]
+    },
+    {
+      "id": "JASA20",
+      "title": "Bayesian Inference for Logistic Models Using Pólya–Gamma Latent Variables",
+      "authors": [
+        "Nicholas G. Polson",
+        "James G. Scott",
+        "Jesse Windle"
+      ],
+      "year": 2013,
+      "doi": "10.1080/01621459.2013.829001",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "Bayesian computation",
+        "data augmentation",
+        "logistic regression"
+      ],
+      "selection_reason": "OpenAlex当日被引931次，正式发表至少八年。覆盖Pólya–Gamma数据扩充、精确辅助变量抽样和层次模型效率，补充计算构造的多层证据。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2099878672",
+        "query_date": "2026-10-19",
+        "count": 931,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 108
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 94
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 82
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 93
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 81
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 78
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 70
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 64
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 34
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 38
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 23
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 2
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2099878672",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 10
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 64
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 70
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 78
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 81
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 93
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 82
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 94
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 108
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 66
+            }
+          ],
+          "total_citations": 931,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://arxiv.org/pdf/1205.0310",
+        "version": "arXiv:1205.0310v3, 2013-07-22; 42 PDF pages including technical supplement",
+        "format": "pdf",
+        "sha256": "3b94bccf2abbe0641492cc0221e91ea83d33bbdb1a013c550f42ba22c56348c5",
+        "pages": 42,
+        "read_scope": "已阅读arXiv:1205.0310v3的pp.1–21摘要及§§1–6全部主体叙述、图表和核心证明的解释性文字；未逐行验算公式。pp.25起技术补充的算法、详细实验和扩展未作为已完整精读部分。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA20.md",
+      "volume": "108",
+      "issue": "504",
+      "pages": "1339-1349",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1080/01621459.2013.829001",
+        "https://openalex.org/W2099878672"
+      ]
+    },
+    {
+      "id": "JASA21",
+      "title": "Distribution-Free Predictive Inference for Regression",
+      "authors": [
+        "Jing Lei",
+        "Max G’Sell",
+        "Alessandro Rinaldo",
+        "Ryan J. Tibshirani",
+        "Larry Wasserman"
+      ],
+      "year": 2018,
+      "doi": "10.1080/01621459.2017.1307116",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "predictive inference",
+        "conformal prediction"
+      ],
+      "selection_reason": "OpenAlex当日被引930次，正式发表至少八年。覆盖conformal regression、边际覆盖和预测式变量重要性，补充无分布预测推断。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2964060211",
+        "query_date": "2026-10-19",
+        "count": 930,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 302
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 167
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 107
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 92
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 75
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 56
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 27
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 7
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 1
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2964060211",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 1
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 3
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 5
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 7
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 56
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 92
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 107
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 167
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 302
+            }
+          ],
+          "total_citations": 930,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.stat.cmu.edu/~ryantibs/papers/conformal.pdf",
+        "version": "Public author manuscript from Ryan Tibshirani institutional site, 50 PDF pages including appendices; undated title page; JASA print 2018",
+        "format": "pdf",
+        "sha256": "1d614380e87c358e563706ba0bb04e288ec7e51321cbd06eaafbbcc034b52d5c",
+        "pages": 50,
+        "read_scope": "已阅读公开作者稿PDF pp.1、3–39摘要及§§1–7全部主体叙述、算法、理论说明、模拟图表；p.2目录及pp.40–41参考文献用于定位。pp.42–50技术证明和额外实验未列为已完整精读，未逐行核验公式。正式期刊年份为2018。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA21.md",
+      "volume": "113",
+      "issue": "523",
+      "pages": "1094-1111",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1080/01621459.2017.1307116",
+        "https://openalex.org/W2964060211"
+      ]
+    },
+    {
+      "id": "JASA22",
+      "title": "Statistical Analysis of a Telephone Call Center",
+      "authors": [
+        "Lawrence Brown",
+        "Noah Gans",
+        "Avishai Mandelbaum",
+        "Anat Sakov",
+        "Haipeng Shen",
+        "Sergey Zeltyn",
+        "Linda Zhao"
+      ],
+      "year": 2005,
+      "doi": "10.1198/016214504000001808",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "queueing science",
+        "applied service operations"
+      ],
+      "selection_reason": "OpenAlex当日被引802次，正式发表至少八年。覆盖呼叫中心逐通记录与排队科学的原始分析，展示多个统计模块如何组成统一应用。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2039698234",
+        "query_date": "2026-10-19",
+        "count": 802,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 18
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 27
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 27
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 32
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 39
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 48
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 39
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 51
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 58
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 48
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 52
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 43
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2039698234",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 43
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 52
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 58
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 51
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 48
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 39
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 32
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 27
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 18
+            }
+          ],
+          "total_citations": 802,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Brown-etal-CCdata.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "bbb914637f2d6abddbc4aee94f590c90f1641c094f48da69420371647ef89a45",
+        "pages": 15,
+        "read_scope": "已阅读正式排版pp.36–49摘要及§§1–7全部主体叙述、图表与统计构造说明；pp.49–50参考文献未作为新的分析。未独立逐行验算公式。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA22.md",
+      "volume": "100",
+      "issue": "469",
+      "pages": "36-50",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214504000001808",
+        "https://openalex.org/W2039698234"
+      ]
+    },
+    {
+      "id": "JASA23",
+      "title": "An Analysis of the New York City Police Department's “Stop-and-Frisk” Policy in the Context of Claims of Racial Bias",
+      "authors": [
+        "Andrew Gelman",
+        "Jeffrey Fagan",
+        "Alex Kiss"
+      ],
+      "year": 2007,
+      "doi": "10.1198/016214506000001040",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "applied social statistics",
+        "hierarchical modeling"
+      ],
+      "selection_reason": "OpenAlex当日被引873次，正式发表至少八年。覆盖警务盘查的条件比较、分母选择与替代解释，补充社会统计中的推断边界。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W1996272633",
+        "query_date": "2026-10-19",
+        "count": 873,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 45
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 69
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 54
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 72
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 91
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 80
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 75
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 71
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 53
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 37
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 30
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 12
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 19
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W1996272633",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 19
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 12
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 30
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 37
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 53
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 71
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 75
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 80
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 91
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 88
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 72
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 69
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 45
+            }
+          ],
+          "total_citations": 873,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://stat.columbia.edu/~gelman/research/published/frisk9.pdf",
+        "version": "Published journal typeset article, publicly hosted institutional copy; printed page numbers recorded in note",
+        "format": "pdf",
+        "sha256": "e9b05be632441c125f4b2bc6da31fecef76fb8d144c7f2bb634f8b63039747a0",
+        "pages": 11,
+        "read_scope": "已阅读正式排版pp.813–822的摘要及§§1–6全部主体叙述、模型与图表说明；pp.822–823参考文献未当作新的实证证据。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA23.md",
+      "volume": "102",
+      "issue": "479",
+      "pages": "813-823",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214506000001040",
+        "https://openalex.org/W1996272633"
+      ]
+    },
+    {
+      "id": "JASA24",
+      "title": "Bayesian Spatial Modeling of Extreme Precipitation Return Levels",
+      "authors": [
+        "Daniel Cooley",
+        "Douglas Nychka",
+        "Philippe Naveau"
+      ],
+      "year": 2007,
+      "doi": "10.1198/016214506000000780",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Applications and Case Studies — original research",
+      "topics": [
+        "environmental statistics",
+        "spatial extremes"
+      ],
+      "selection_reason": "OpenAlex当日被引524次，正式发表至少八年。覆盖空间极值return-level图和不确定性，补充环境统计及科学产物驱动的模型选择。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2071769383",
+        "query_date": "2026-10-19",
+        "count": 524,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 14
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 21
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 26
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 34
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 28
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 38
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 33
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 29
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 31
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 38
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 28
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2071769383",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 42
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 29
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 33
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 35
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 38
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 28
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 34
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 31
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 21
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 14
+            }
+          ],
+          "total_citations": 524,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://www.image.ucar.edu/pub/nychka/manuscripts/cooleyFR.pdf",
+        "version": "Public author manuscript dated 2005-07-22, 41 PDF pages; JASA publication 2007",
+        "format": "pdf",
+        "sha256": "ebb9874c5c659e6cd220f9ae8747ed88a48128b130f986901c5d151a43584f41",
+        "pages": 41,
+        "read_scope": "已阅读公开2005年作者稿PDF pp.2–25摘要及§§1–5全部主体叙述、模型和结果，并读pp.30–41全部图表说明；参考文献未作为新结果，未逐行验算计算推导。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA24.md",
+      "volume": "102",
+      "issue": "479",
+      "pages": "824-840",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/016214506000000780",
+        "https://openalex.org/W2071769383"
+      ]
+    },
+    {
+      "id": "JASA25",
+      "title": "Forecasting Time Series With Complex Seasonal Patterns Using Exponential Smoothing",
+      "authors": [
+        "Alysha M. De Livera",
+        "Rob J. Hyndman",
+        "Ralph D. Snyder"
+      ],
+      "year": 2011,
+      "doi": "10.1198/jasa.2011.tm09771",
+      "journal": "Journal of the American Statistical Association",
+      "article_type": "Theory and Methods — original research",
+      "topics": [
+        "time series forecasting",
+        "complex seasonality"
+      ],
+      "selection_reason": "OpenAlex当日被引1050次，正式发表至少八年。覆盖TBATS复杂季节性、状态空间估计与预测分解，补充现代时间序列建模。该判断由影响计数、论文原始贡献与方向覆盖组成，不是已核验的唯一经典排名。",
+      "citation_evidence": {
+        "source": "https://openalex.org/W2109316012",
+        "query_date": "2026-10-19",
+        "count": 1050,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 125
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 106
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 98
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 129
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 132
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 103
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 87
+          },
+          {
+            "year": 2018,
+            "cited_by_count": 54
+          },
+          {
+            "year": 2017,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2016,
+            "cited_by_count": 41
+          },
+          {
+            "year": 2015,
+            "cited_by_count": 26
+          },
+          {
+            "year": 2014,
+            "cited_by_count": 23
+          },
+          {
+            "year": 2013,
+            "cited_by_count": 12
+          },
+          {
+            "year": 2012,
+            "cited_by_count": 2
+          }
+        ],
+        "annual_snapshot": {
+          "source_url": "https://openalex.org/W2109316012",
+          "queried_at": "2026-10-19",
+          "counts_by_year": [
+            {
+              "year": 2012,
+              "cited_by_count": 2
+            },
+            {
+              "year": 2013,
+              "cited_by_count": 12
+            },
+            {
+              "year": 2014,
+              "cited_by_count": 23
+            },
+            {
+              "year": 2015,
+              "cited_by_count": 26
+            },
+            {
+              "year": 2016,
+              "cited_by_count": 41
+            },
+            {
+              "year": 2017,
+              "cited_by_count": 40
+            },
+            {
+              "year": 2018,
+              "cited_by_count": 54
+            },
+            {
+              "year": 2019,
+              "cited_by_count": 87
+            },
+            {
+              "year": 2020,
+              "cited_by_count": 103
+            },
+            {
+              "year": 2021,
+              "cited_by_count": 132
+            },
+            {
+              "year": 2022,
+              "cited_by_count": 129
+            },
+            {
+              "year": 2023,
+              "cited_by_count": 98
+            },
+            {
+              "year": 2024,
+              "cited_by_count": 106
+            },
+            {
+              "year": 2025,
+              "cited_by_count": 125
+            },
+            {
+              "year": 2026,
+              "cited_by_count": 66
+            }
+          ],
+          "total_citations": 1050,
+          "observed_every_year_2021_2025": true,
+          "is_retracted_flag": false,
+          "limitation": "数据库可见窗口内的逐年引用快照；不等同于所有年代完整引用史或全领域共识排名。"
+        }
+      },
+      "full_text": {
+        "url": "https://robjhyndman.com/papers/ComplexSeasonality.pdf",
+        "version": "Monash Working Paper 15/09, revision dated 2010-10-28, 40 PDF pages; JASA publication 2011",
+        "format": "pdf",
+        "sha256": "d7bc3852c5d90a7ee1db324258de0b8741b3708cc02bce083bf22304733a46a4",
+        "pages": 40,
+        "read_scope": "已阅读2010-10-28作者稿PDF pp.3–35的摘要及§§1–5全部主体叙述、图表和计算程序；pp.36–40参考文献未当作附加验证，公式未逐行独立核算。",
+        "read_at": "2026-10-19",
+        "status": "read"
+      },
+      "note": "papers/JASA25.md",
+      "volume": "106",
+      "issue": "496",
+      "pages": "1513-1527",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1198/jasa.2011.tm09771",
+        "https://openalex.org/W2109316012"
+      ]
+    }
+  ]
+}
