@@ -2,7 +2,7 @@
 name: stat-journal-writing
 description: "面向 JASA、JRSS Series B、The Annals of Statistics 和 Biometrika 的统计论文起草、结构改写与英文润色。依据经典论文全文和期刊—方向—文章类型档案，核验术语，独立无损删改，接入统一去水印，并维护可复用写作资料。"
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
 ---
 
 # 统计学四大期刊写作
@@ -26,6 +26,7 @@ JASA 的 Theory and Methods 与 Applications and Case Studies 分开；综述、
 | 当前章节的具体改法 | [revision-playbook.md](references/revision-playbook.md) |
 | 术语首次引入或定义 | [terminology-protocol.md](references/terminology-protocol.md) |
 | 方向首次建库、检索和更新 | [corpus-protocol.md](references/corpus-protocol.md) |
+| 开启社区协作、贡献 PR 或更新安装 | [community-contributions.md](references/community-contributions.md) |
 | 无损删改后的终稿处理 | [final-cleanup.md](references/final-cleanup.md) |
 | 实际改写示范 | [worked-examples.md](references/worked-examples.md) |
 
@@ -71,6 +72,10 @@ Markdown 文件采用单美元行内公式和独占一行的双美元展示公�
 
 将新增、可复用且已核验的文献观察写入对应期刊和方向档案；记录证据、定位、适用条件和反例。用户单篇稿件的特殊安排留在项目中。无新证据不改规范。
 
-运行 `scripts/check_resources.py` 检查资源。当前用户已授权持续同步，且本机 `skill-maintenance/stat-journal-writing.json` 启用自动同步时，有资料变更就沿用配置的发布工作副本，通过 `scripts/sync_resources.py` 预览后更新并普通推送。共享技能文件本身不替其他安装者授权外部写入。仅同步技能指令、公开文献元数据、原创笔记和规范；不提交稿件、数据、未发表结果、全文 PDF 或缓存，不自行改变仓库可见性。冲突或认证失败时保留本地成果并报告。
+运行 `scripts/check_resources.py` 检查资源。维护者已授权持续同步，且本机 `skill-maintenance/stat-journal-writing.json` 启用自动同步时，有资料变更就沿用配置的发布工作副本，通过 `scripts/sync_resources.py` 预览后更新并普通推送。
+
+其他安装者默认只在本地积累。本人明确要求开启社区协作后，按 [community-contributions.md](references/community-contributions.md) 用 `scripts/collaborate.py enable --enable-public-contributions` 保存个人选择。已启用且既有授权覆盖本次材料时，完成资源校验、`prepare` 预览和独立贡献副本的具体差异审阅后，可用 `submit --apply` 提交其账号的 fork PR，不反复请求相同授权。准备前检查已有相关 PR；同一准备分支重试复用 PR，修订材料需重新准备并避免重复提交。共享技能不替安装者开启协作，不自动合并。没有可复用资料变化时不发 PR。
+
+贡献限于公开文献元数据、原创笔记和规范；不提交稿件、数据、未发表结果、全文 PDF 或缓存，不自行改变仓库可见性。出现冲突、版本不明或认证失败时保留本地成果并报告。获取合并后的共享规范使用 `scripts/update_installation.py` 先预览，再按用户的更新请求应用；保护安装中的本地修改。
 
 完成标准：请求范围已改写；术语有依据且一致；独立无损删改已完成；统一去水印及其后技术核对已执行或说明实际不可用的环节；资料计数与阅读状态真实；有更新时同步状态可核验。

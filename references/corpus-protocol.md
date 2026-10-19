@@ -70,3 +70,5 @@
 同步沿用已配置的发布工作副本和仓库，核对远端当前可见性，不自行更改。维护配置放在 Codex 用户目录的 `skill-maintenance/stat-journal-writing.json`，位于技能包之外，保存工作副本路径、目标仓库和自动同步开关；它记录当前安装者的选择，不向共享仓库传播个人路径或替其他用户授权。
 
 `scripts/sync_resources.py` 读取该配置并默认预览；也可显式提供 `--worktree <path>`。`--apply --push` 才导出、提交与普通推送，须在当前任务或既有授权范围内使用。仅导出明确允许的技能资源，保留仓库独立 README。遇到脏工作区、远端新提交、冲突或认证失败时保存本地成果并报告，不强推。
+
+社区安装者使用[社区贡献与安装更新](community-contributions.md)中的 `scripts/collaborate.py` 流程：本人明确开启，按具体方向和阅读卡准备差异，通过个人 fork 提交 PR，维护者审核合并。自动贡献不直接推送官方主分支；没有开启时继续本地积累。`scripts/update_installation.py` 提供独立安装更新入口，默认预览；保留本地修改，遇冲突停止。个人配置与授权不随安装包传播。

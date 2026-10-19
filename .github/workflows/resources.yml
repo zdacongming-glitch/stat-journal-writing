@@ -1,0 +1,27 @@
+name: Validate skill resources
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  resources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out contribution
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Validate resource integrity
+        run: python scripts/check_resources.py --require-complete
+      - name: Check Python syntax
+        run: python -m compileall -q scripts
