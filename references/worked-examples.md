@@ -1,4 +1,4 @@
-# 改写示例：删去无用解释，保留技术含义
+# 改写示例：补清论证，删去无用解释
 
 以下均为原创演示。给定事实是示例输入，不是文献原句或实际研究结果；不能移植其中的结论和编号到真实稿件。示例用于判断具体改法，不作固定句式模板。
 
@@ -46,7 +46,7 @@
 
 ## D. 定理后的文字由上下文决定
 
-给定事实：假设 A1–A4 与固定维度已在本节设定中明确给出，定理 2 证明每个固定参数处的渐近正态性。
+给定事实：假设 A1–A4 与固定维度已在本节设定中明确给出，定理 2 证明每个固定参数处的渐近正态性。目标、必要定义与这些设定在正文中已有充分信息，读者不必查补充材料才能理解结论范围。
 
 原稿：
 
@@ -76,7 +76,7 @@
 
 ## F. 条件引用清楚时，避免再次铺开
 
-语境：本节的假设已经明确要求均值模型正确，并给出一致性的其余条件；结论允许工作相关结构误设。
+语境：正文已明确要求均值模型正确，并充分给出一致性的其余条件、目标及结论范围；结论允许工作相关结构误设。以下删减以只读正文即可理解这些信息为前提。
 
 原稿：
 
@@ -117,3 +117,130 @@
 按 [final-cleanup.md](final-cleanup.md) 对选定正文做一次忠实语言整理，文件另经 inspect 和保守 Unicode 清理；保留原件与独立结果。核对术语、公式、引用和数值，再选定终稿。
 
 隐藏字符清理与语言整理分别记录实际效果。没有可验证的统计水印检测器时，不把流程完成写成统计水印已被验证去除。
+
+## K. 交代新对象的构造及其用途
+
+给定事实（虚构教学场景）：$X_1,\ldots,X_n$ 为独立同分布观测，总体均值为 $\mu$，样本均值为 $\bar X_n$。本段首次引入 $S_n$，用于分析样本均值的缩放误差；此前尚未给出其构造。
+
+问题写法：
+
+> The analysis proceeds through a summary $S_n$ of the random variation in the data.
+
+修订：
+
+> Define $S_n=n^{-1/2}\sum_{i=1}^n(X_i-\mu)$. Since $S_n=\sqrt n(\bar X_n-\mu)$, its distribution describes the scaled estimation error of the sample mean.
+
+修订给出观测怎样形成对象，以及该对象为什么进入当前分析。它没有仅用另一个抽象名称替换 summary。
+
+何时应保持不改：若前文已经给出上述构造及用途，后文的 “We next study the distribution of $S_n$.” 可以保留，不必再次展开求和或重复解释随机性来源。
+
+## L. 在需要解释新关系时保留推导桥梁
+
+给定事实（虚构教学场景）：已有 $\sqrt n(\bar X_n-\mu)\to_d Z$，其中 $Z\sim N(0,\sigma^2)$、$\sigma^2>0$。对当前光滑函数 $h$，已得到 $h'(\mu)\ne0$ 及一阶展开
+
+$$
+h(\bar X_n)-h(\mu)
+=h'(\mu)(\bar X_n-\mu)+o_p(n^{-1/2}).
+$$
+
+本段承担说明变换怎样影响极限方差的任务，尚未向读者展示这一联系；上述展开是本例给定输入，不是写作时补出的新结果。
+
+问题写法：
+
+> Therefore, the limiting variance is $h'(\mu)^2\sigma^2$.
+
+修订：
+
+> Multiplying the expansion by $\sqrt n$ gives
+
+$$
+\sqrt n\{h(\bar X_n)-h(\mu)\}
+=h'(\mu)\sqrt n(\bar X_n-\mu)+o_p(1).
+$$
+
+> The leading term converges to $h'(\mu)Z$, whose variance is $h'(\mu)^2\sigma^2$.
+
+这里保留了中心、缩放和极限变量之间的联系。不能仅把 therefore 换成 hence，便认为补上了缺失推理。
+
+何时应保持不改：若这一展开已在紧邻上文出现，或本段只需调用已经说明的 delta method，简短给出结果即可；不为每次标准定理调用增加教学式推导。
+
+## M. 正文保留判断区间有效性所需的条件
+
+给定事实（虚构教学场景）：$X_1,\ldots,X_n$ 的均值为 $\mu$，样本均值为 $\bar X_n$，重抽样均值为 $\bar X_n^*$。正文已定义普通非参数 bootstrap：从经验分布有放回抽取 $n$ 个观测，并用 $B_n$ 个条件独立重抽样所得的 $\sqrt n(\bar X_n^*-\bar X_n)$ 的分位数构造双侧 basic bootstrap 区间。两目标概率为 $\alpha/2$ 和 $1-\alpha/2$，其中 $0<\alpha<1$。本例已给定并证明：在独立同分布、有限正方差条件下，缩放均值误差及其条件 bootstrap 分布具有同一正态极限；$B_n\to\infty$ 时两经验分位数一致。正文尚未解释这些条件及其作用。
+
+问题写法：
+
+> The supplement establishes the validity of this bootstrap construction.
+
+修订：
+
+> For independent identically distributed observations with finite positive variance, the conditional distribution of $\sqrt n(\bar X_n^*-\bar X_n)$ approaches the same normal limit as $\sqrt n(\bar X_n-\mu)$. The limiting distribution function is continuous and strictly increasing, and $B_n\to\infty$ makes the two empirical quantiles consistent. The resulting interval has limiting coverage $1-\alpha$; the proof is given in Supplement S1.
+
+必要条件及分位数为何稳定留在正文，完整条件论证与证明仍可在补充材料。不能把本例的 bootstrap 有效性推广到未给定的重抽样方案或统计量。
+
+何时应保持不改：若正文已经说明采样、矩条件、分位数稳定性及模拟次数要求，单独的证明出处可以保持简短。无需在每次提及该区间时重列这些条件。
+
+## N. 描述方法组合，不把组合简称当成标准名称
+
+给定事实（虚构教学场景）：有 $G$ 个独立聚类，$\widehat\theta_G$ 估计标量目标 $\theta$。正文已定义按聚类贡献计算的方差估计 $\widehat V_G$，并给定学生化极限 $(\widehat\theta_G-\theta)/\sqrt{\widehat V_G}\to_d N(0,1)$。区间采用标准正态分位数 $z_{1-\alpha/2}$，其中 $0<\alpha<1$。未给出 cluster-Gaussian 是固定方法名的依据；本例不声称已核验任何特定文献。
+
+问题写法：
+
+> We apply the cluster-Gaussian method.
+
+修订：
+
+> Our benchmark is the Wald interval
+
+$$
+\widehat\theta_G
+\ \pm\ z_{1-\alpha/2}\sqrt{\widehat V_G},
+$$
+
+> where $\widehat V_G$ is computed from the independent cluster contributions defined above.
+
+修订说明区间形式与方差估计的关系。真实稿件若采用已有构造，应核验其公式和原始出处；不能由两个常见词自行合成一个公认方法名，也不能编造引文。图表需要 CG 等短标签时，应声明它只是本文对该区间的标签。
+
+何时应保持不改：已有名称与定义经可靠来源核验，或图注已经清楚定义局部标签时，可以沿用。不能因为名称含连字符或图中使用缩写就机械改名。
+
+## O. 准确归属性质，并保持表示的名称承接
+
+给定事实（虚构教学场景）：在约束 $\theta\ge0$ 下最小化样本平方损失，得到 $\widehat\theta_n=\max(0,\bar X_n)$。实函数 $t\mapsto\max(0,t)$ 是投影到非负半轴的映射，连续且分段仿射；平方损失 $(x-\theta)^2$ 对 $\theta$ 光滑。
+
+问题写法：
+
+> The squared loss has a kink at zero. The estimator has the projection form $\widehat\theta_n=\max(0,\bar X_n)$. This clipping law simplifies its computation.
+
+修订：
+
+> The constraint $\theta\ge0$ gives the projection formula $\widehat\theta_n=\max(0,\bar X_n)$. The projection changes slope at zero; the squared loss remains smooth in $\theta$.
+
+后文可用 this projection formula 承接，不另起一个未经说明的 clipping law。参数约束是条件，投影公式是由约束及准则得到的表示；二者不应为统一措辞而混成同一个对象。对损失的错误性质应纠正，并在修改说明中明示。
+
+何时应保持不改：正文已分清损失与投影，并用稳定名称指代该表示时，无需再次增加一段区分。若另有技术操作采用不同名称，应保留其准确名称并说明关系，不作全篇词语替换。
+
+## P. 让理论层级和标题服务于具体推断任务
+
+给定事实（虚构教学场景）：前节给出一般估计方程的渐近展开；当前节将其用于独立同分布观测下的总体位置参数 $\theta_0$，所用得分函数 $\psi(x,\theta)$ 已定义。本例给定 $E\{\psi(X,\theta_0)\}=0$、$a=-E\{\partial_\theta\psi(X,\theta_0)\}\ne0$、$b=\operatorname{var}\{\psi(X,\theta_0)\}>0$，已证明 $\sqrt n(\widehat\theta_n-\theta_0)\to_d N(0,b/a^2)$，且 $\widehat a,\widehat b$ 一致。这里 $z_p$ 为标准正态分位数，$0<\alpha<1$。一个更一般的余项验证引理已有完整证明，但不是当前节的主要贡献。
+
+问题写法：
+
+> **Computational inputs and theoretical checks**
+>
+> We introduce the location estimator, state a general remainder lemma for estimating equations, and then return to the location problem to construct an interval.
+
+修订：
+
+> **Confidence intervals for a location parameter**
+>
+> For this location score, $a=-E\{\partial_\theta\psi(X,\theta_0)\}$ and $b=\operatorname{var}\{\psi(X,\theta_0)\}$. Substituting these quantities into the preceding expansion yields asymptotic variance $b/a^2$. Using the consistent estimates $\widehat a$ and $\widehat b$, we obtain
+
+$$
+\widehat\theta_n
+\ \pm\ z_{1-\alpha/2}
+\sqrt{\frac{\widehat b}{n\widehat a^2}}.
+$$
+
+标题对应位置参数的推断任务。正文沿一般结果的具体使用推进；一般验证工具可在理论部分提前建立，或连同完整证明放入合适的补充位置，不在应用途中无解释地切换层级，也不随正文删减而丢弃。
+
+何时应保持不改：若一般引理本身就是主要创新，保留主文的完整证明可能正是合适安排；若本节真正解决计算问题，计算导向的标题也可以成立。不能把本例推广成“所有引理都移到补充材料”或“所有标题都改成置信区间”。
