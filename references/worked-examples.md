@@ -102,7 +102,7 @@
 
 > The rest of the paper is organized as follows. Section 2 introduces the model. Section 3 presents the estimator. Section 4 gives the theory, and Section 5 reports simulations.
 
-目标刊的当前风格要求不使用此类预告，或此段不帮助理解时，删除整段。只有确实缺少逻辑衔接且有给定事实时才补过渡，不用同样长度的另一种预告代替。
+在用户未明确要求保留的前提下，若经当次核验的目标刊风格要求不使用此类预告，或此段不帮助理解，删除整段。只有确实缺少逻辑衔接且有给定事实时才补过渡，不用同样长度的另一种预告代替。用户明确保留导航段时按其要求处理；投稿风格检查可在正文外说明已核实的差异，不把旧建议当作删除授权。
 
 ## I. 成熟句子保持不变
 
@@ -244,3 +244,99 @@ $$
 标题对应位置参数的推断任务。正文沿一般结果的具体使用推进；一般验证工具可在理论部分提前建立，或连同完整证明放入合适的补充位置，不在应用途中无解释地切换层级，也不随正文删减而丢弃。
 
 何时应保持不改：若一般引理本身就是主要创新，保留主文的完整证明可能正是合适安排；若本节真正解决计算问题，计算导向的标题也可以成立。不能把本例推广成“所有引理都移到补充材料”或“所有标题都改成置信区间”。
+
+## Q. 使搭配对应模型、拟合和损失的实际层次
+
+给定事实（虚构教学场景）：训练数据 $D$ 包含正的持续时间观测。拟合程序将 $D$ 映射到指数分布的参数估计 $\widehat\lambda=1/\bar X_D$，拟合密度为 $p_{\widehat\lambda}(x)=\widehat\lambda\exp(-\widehat\lambda x)$，$x>0$。评价一个新观测 $x$ 时，计算负对数损失 $-\log p_{\widehat\lambda}(x)$。
+
+问题写法：
+
+> We estimate the procedure $p_{\widehat\lambda}$ and fit its negative log loss at a new duration $x$.
+
+修订：
+
+> The fitting procedure returns the rate estimate $\widehat\lambda=1/\bar X_D$ and the fitted density $p_{\widehat\lambda}$. At a new duration $x$, we evaluate the negative log loss $-\log p_{\widehat\lambda}(x)$.
+
+修订区分了从数据到拟合的程序、估计出来的参数、拟合密度与计算得到的损失；没有把 procedure 简单换成 model。
+
+何时应保持不改：若上下文已定义上述程序，句子 “We evaluate the prediction risk of this fitting procedure over repeated training samples.” 可以保留，前提是该任务确实评价对训练样本再平均的程序风险。不能因同时出现 procedure 和 risk 就改成单次拟合的条件风险。
+
+## R. 用已有观测记号补足关系
+
+给定事实（虚构教学场景）：前文已经定义向量观测 $Z_i$ 的各分量。已知实值评分函数 $s$ 将一个这样的观测映射为标量，用于计算 $\bar s_n=n^{-1}\sum_{i=1}^n s(Z_i)$。当前段落只引入平均评分，不需要研究整个函数类。
+
+问题写法：
+
+> A summary $s$ of the measurements produces the average response $\bar s_n$.
+
+修订：
+
+> For the real-valued score $s(z)$, define the average score $\bar s_n=n^{-1}\sum_{i=1}^n s(Z_i)$.
+
+已有观测定义与新公式共同说明输入和输出。无需重新拆开观测向量、引入另一套参数或为这个有限和增加函数空间假设。
+
+何时应保持不改：上述评分及平均公式已清楚给出时，可以直接写 “We report $\bar s_n$ for each sample.” 若后续确实需要期望、函数类或可测性条件，应在相应位置准确陈述；不能把本例理解为这些条件永远不需要。
+
+## S. 明确相似的是哪个量
+
+给定事实（虚构教学场景）：两个估计量为 $A=\mu+\varepsilon$、$B=\mu-\varepsilon$，其中 $E\varepsilon=0$、$\operatorname{var}(\varepsilon)=\tau^2>0$。本段比较它们的期望与差的随机波动，不讨论渐近速率。
+
+问题写法：
+
+> The estimates match closely, so their difference has negligible variation.
+
+修订：
+
+> Both estimators have expectation $\mu$, but their difference is $A-B=2\varepsilon$ and has variance $4\tau^2$.
+
+“期望相同”不能替代“随机变量之差很小”。这里的转折承担实际比较，应保留；发现原句结论与给定事实冲突时，应在作者说明中指出纠正。
+
+何时应保持不改：若给定材料确已证明两个估计量之差在所述尺度上可忽略，且正文已交代尺度和条件，可以简短沿用该结论，不再重复上述反例。某个充分条件不满足，也不能单凭这一点宣布估计量之差必然不可忽略。
+
+## T. 删除没有作用的公式重复，保留数学依赖
+
+给定事实（虚构教学场景）：$a_1,\ldots,a_m$ 是固定正数，权重为 $w_i=a_i/\sum_{j=1}^m a_j$，后文使用 $T=\sum_{i=1}^m w_iY_i$。这里的任务只是定义加权统计量，没有后续交叉引用指向权重求和等式；后续方差结果要求权重固定。
+
+问题写法：
+
+> For fixed positive $a_i$, set $w_i=a_i/\sum_j a_j$. Hence $\sum_i w_i=(\sum_i a_i)/(\sum_j a_j)=1$. Signed or adaptively chosen weights could also be considered. We compute $T=\sum_i w_iY_i$.
+
+修订：
+
+> For fixed positive $a_i$, set $w_i=a_i/\sum_j a_j$ and compute $T=\sum_i w_iY_i$.
+
+删去的是没有承担当前推导任务的代数复写和未研究的分支；固定权重的条件仍在。不能因两者都属于“限定”就一起删除。
+
+何时应保持不改：若当前段落正利用 $\sum_iw_i=1$ 解释常数再现性质，或后文证明明确引用该等式，应保留所需关系及定位。是否简单不是删式标准；有用的解释也不必被迫改成正式定理。
+
+## U. 让引用随论点移动，保持贡献连续
+
+给定事实（虚构教学场景）：文献 A 说明不等概率抽样中估计中位数需要处理抽样权重；文献 B 已提供保守区间。本文在抽样概率已知为正及正文所列抽样设计和密度条件下，证明另一种总体中位数区间的渐近名义覆盖，但没有证明其宽度优于 B。A、B 只是教学占位符，不对应真实文献。
+
+问题写法：
+
+> We construct intervals for a population median. A explains the role of sampling weights in median estimation under unequal-probability sampling. Our intervals attain asymptotic nominal coverage. Existing research does not provide interval procedures for this problem; B studies conservative intervals.
+
+修订：
+
+> A explains how sampling weights enter median estimation under unequal-probability sampling, and B provides conservative intervals. With known positive sampling probabilities and under the stated design and density conditions, we construct intervals for the population median that attain nominal coverage asymptotically.
+
+修订承认已有办法，把抽样背景置于其作用位置，连续说明本文对象与结果；没有凭措辞增加宽度优势或全局首创性。真实稿件还应依据实际证据说明与最邻近工作的具体差别，不能从本例补造差别。
+
+何时应保持不改：引言已按论证任务组织、文献就近支撑判断时，保留现有顺序。为准确说明本文构造所需的出处可以留在贡献段；不把“贡献连续”执行成该段不能引用文献，也不规定每篇文章都必须按本例顺序写。
+
+## V. 把开放问题限定到实际目标和保证
+
+给定事实（虚构教学场景）：本文区间针对总体中位数，对每个固定的分布在给定条件下具有渐近名义覆盖；没有建立它在分布类 $\mathcal P$ 上的一致覆盖。其他工作已有总体均值的一致有效区间。若允许总体中位数趋近分布支撑边界，本文的分位数近似误差尚需额外控制；这指总体参数，不是观测到的样本中位数。
+
+问题写法：
+
+> Uniform intervals remain unavailable. When the estimated medians approach a boundary, our theory fails and an improved method will solve the problem.
+
+修订：
+
+> Uniform coverage of our median intervals over $\mathcal P$ remains unresolved. Allowing population medians to approach the support boundary requires further control of the quantile approximation error.
+
+修订限定了开放问题，指出给定材料支持的困难；未把“尚无证明”写成“方法已被证明失效”，也没有预告未经建立的解决办法。均值推断的其他结果不因此被否认。
+
+何时应保持不改：Discussion 已准确限定目标、分布类和保证，并指出实际障碍时，保持简洁即可。作者已确认保留或删除的段落按最新要求处理，不因历史草案出现过一段模拟总结就将它恢复。
